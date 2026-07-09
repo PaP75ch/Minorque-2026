@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,8 @@
 <link rel="icon" type="image/png" href="icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Minorque ’26">
-<title>Minorque · 25 juillet – 1er août</title>
+<meta name="apple-mobile-web-app-title" content="Menorca ’26">
+<title>Menorca · July 25 – August 1</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -351,60 +351,59 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
     </g>
   </svg>
   <div class="hero-inner">
-    <span class="hero-chip"><span class="dot"></span>25 juillet → 1<sup>er</sup> août&nbsp;·&nbsp;7 nuits · Minorque</span>
-    <h1>Une semaine à <em>Minorque</em></h1>
-    <p class="hero-sub">Le carnet de bord de la villa de San Jaime — plages, calas turquoise, villages blancs et longues soirées au barbecue. À vivre tous ensemble.</p>
+    <span class="hero-chip"><span class="dot"></span>July 25 → August 1&nbsp;·&nbsp;7 nights · Menorca</span>
+    <h1>A week in <em>Menorca</em></h1>
+    <p class="hero-sub">The logbook of our San Jaime villa — beaches, turquoise calas, whitewashed villages and long barbecue evenings. To live all together.</p>
     <div class="hero-meta">
-      <span>🏡 Villa à San Jaime · Son Bou</span>
-      <span>👨‍👩‍👧‍👦 6 adultes · 4 enfants</span>
-      <span>🏊 Piscine privée</span>
-      <span>🔥 Barbecue · 🚗 3 voitures</span>
+      <span>🏡 Villa in San Jaime · Son Bou</span>
+      <span>👨‍👩‍👧‍👦 6 adults · 4 kids</span>
+      <span>🏊 Private pool</span>
+      <span>🔥 Barbecue · 🚗 3 cars</span>
     </div>
   </div>
-  <div class="scroll-cue" onclick="goTo('groupe')" style="cursor:pointer"><span>Le voyage</span><span class="arrow"></span></div>
+  <div class="scroll-cue" onclick="goTo('groupe')" style="cursor:pointer"><span>The trip</span><span class="arrow"></span></div>
 </header>
 
 <!-- ============ SYNC BANNER ============ -->
 <div class="sync-wrap"><div class="sync">
   <span class="badge" id="syncBadge"><span class="led"></span><span id="syncLabel">Vérification…</span></span>
-  <p id="syncText">Vos votes, commentaires et dépenses sont enregistrés pour tout le groupe.</p>
-  <a onclick="exportSummary()">📋 Copier un récap pour le groupe</a>
+  <p id="syncText">Your votes, comments and expenses are saved for the whole group.</p>
+  <a onclick="exportSummary()">📋 Copy a recap for the group</a>
 </div></div>
 
 <!-- ============ NAV ============ -->
 <nav class="nav"><div class="nav-in">
-  <span class="brand">Minorque ’26</span>
-  <a role="button" tabindex="0" data-goto="groupe">Le groupe</a>
-  <a role="button" tabindex="0" data-goto="base">La villa</a>
-  <a role="button" tabindex="0" data-goto="carte">Carte</a>
-  <a role="button" tabindex="0" data-goto="rythme">Le rythme</a>
-  <a role="button" tabindex="0" data-goto="programme">Programme</a>
+  <span class="brand">Menorca ’26</span>
+  <a role="button" tabindex="0" data-goto="groupe">The group</a>
+  <a role="button" tabindex="0" data-goto="base">The villa</a>
+  <a role="button" tabindex="0" data-goto="carte">Map</a>
+  <a role="button" tabindex="0" data-goto="rythme">The rhythm</a>
+  <a role="button" tabindex="0" data-goto="programme">Schedule</a>
   <a role="button" tabindex="0" data-goto="restaurants">Restaurants</a>
-  <a role="button" tabindex="0" data-goto="courses">Courses</a>
-  <a role="button" tabindex="0" data-goto="sites">Sites &amp; plages</a>
+  <a role="button" tabindex="0" data-goto="courses">Groceries</a>
+  <a role="button" tabindex="0" data-goto="sites">Sights &amp; beaches</a>
   <a role="button" tabindex="0" data-goto="bbq">Barbecue</a>
-  <a role="button" tabindex="0" data-goto="budget">Budget</a>
-  <a role="button" tabindex="0" data-goto="idees">Idées</a>
-  <a href="en.html" style="font-weight:700">🇬🇧 EN</a>
+  <a role="button" tabindex="0" data-goto="budget">Budget</a><a href="index.html" style="font-weight:700">🇫🇷 FR</a>
+  <a role="button" tabindex="0" data-goto="idees">Ideas</a>
 </div></nav>
 
 <!-- ============ ACCUEIL / SOMMAIRE ============ -->
 <section class="band band-tight" id="accueil">
   <div class="section-head" style="margin-bottom:22px">
-    <span class="eyebrow">Bienvenue à bord</span>
-    <h2 class="h-sec">Tout le séjour, au même endroit</h2>
+    <span class="eyebrow">Welcome aboard</span>
+    <h2 class="h-sec">The whole trip, in one place</h2>
     <div class="countdown" id="countdown" hidden><span class="n" id="cdN"></span><span class="t" id="cdT"></span></div>
-    <p class="lead">Cette plateforme rassemble tout ce qu’il faut pour la semaine — et chacun peut réagir, voter et proposer. Touchez un onglet en haut, ou l’une des cartes ci-dessous pour y aller directement.</p>
+    <p class="lead">This platform gathers everything we need for the week — and everyone can react, vote and suggest. Tap a tab at the top, or one of the cards below to jump straight there.</p>
   </div>
   <div class="overview">
-    <div class="ov" data-goto="programme"><span class="ic">📅</span><div><h4>Programme</h4><p>8 jours pensés autour de la chaleur, des siestes et des soirées ensemble.</p></div></div>
-    <div class="ov" data-goto="carte"><span class="ic">🗺️</span><div><h4>Carte</h4><p>Tous les points sur une carte, avec l’itinéraire depuis la villa.</p></div></div>
-    <div class="ov" data-goto="restaurants"><span class="ic">🍽️</span><div><h4>Restaurants</h4><p>Adresses testées, poisson & poulet, du plus proche au coup de cœur.</p></div></div>
-    <div class="ov" data-goto="courses"><span class="ic">🛒</span><div><h4>Courses</h4><p>Où faire les courses, les distances et les bons plans intendance.</p></div></div>
-    <div class="ov" data-goto="sites"><span class="ic">🏖️</span><div><h4>Sites & plages</h4><p>Calas turquoise et villages blancs, avec le portage adapté aux enfants.</p></div></div>
-    <div class="ov" data-goto="bbq"><span class="ic">🔥</span><div><h4>Barbecue</h4><p>Des idées poisson & poulet pour les soirées à la villa.</p></div></div>
-    <div class="ov" data-goto="budget"><span class="ic">💶</span><div><h4>Budget partagé</h4><p>Chaque couple note ses dépenses, le calcul des comptes se fait tout seul.</p></div></div>
-    <div class="ov" data-goto="idees"><span class="ic">💬</span><div><h4>Votes & idées</h4><p>Votez pour chaque journée et laissez vos envies à tout le groupe.</p></div></div>
+    <div class="ov" data-goto="programme"><span class="ic">📅</span><div><h4>Schedule</h4><p>8 days built around the heat, the naps and evenings together.</p></div></div>
+    <div class="ov" data-goto="carte"><span class="ic">🗺️</span><div><h4>Map</h4><p>Every spot on one map, with directions from the villa.</p></div></div>
+    <div class="ov" data-goto="restaurants"><span class="ic">🍽️</span><div><h4>Restaurants</h4><p>Vetted spots, fish & chicken, from next door to the must-drive.</p></div></div>
+    <div class="ov" data-goto="courses"><span class="ic">🛒</span><div><h4>Groceries</h4><p>Where to shop, distances, and the smart supply tips.</p></div></div>
+    <div class="ov" data-goto="sites"><span class="ic">🏖️</span><div><h4>Sights & beaches</h4><p>Turquoise calas and white villages, with kid-carrying advice.</p></div></div>
+    <div class="ov" data-goto="bbq"><span class="ic">🔥</span><div><h4>Barbecue</h4><p>Fish & chicken ideas for villa evenings.</p></div></div>
+    <div class="ov" data-goto="budget"><span class="ic">💶</span><div><h4>Shared budget</h4><p>Each couple logs expenses, the settle-up is computed for you.</p></div></div>
+    <div class="ov" data-goto="idees"><span class="ic">💬</span><div><h4>Votes & ideas</h4><p>Vote on each day and share your wishes with the group.</p></div></div>
   </div>
 </section>
 <hr class="divider">
@@ -412,15 +411,15 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
 <!-- ============ COMMENT ÇA MARCHE + GROUPE ============ -->
 <section class="band" id="groupe">
   <div class="section-head">
-    <span class="eyebrow">Une seule et même source</span>
-    <h2 class="h-sec">La plateforme du voyage</h2>
-    <p class="lead">Tout le monde consulte la même page et peut réagir : voter pour chaque journée 👍 / à adapter, laisser un commentaire, ajouter une idée, et suivre le budget commun. Quand la page est partagée en lien, chaque modification est visible par tous — une seule source, tenue à jour en direct.</p>
+    <span class="eyebrow">One single source</span>
+    <h2 class="h-sec">The trip platform</h2>
+    <p class="lead">Everyone reads the same page and can react: vote each day 👍 / needs tweaking, leave a comment, add an idea, and track the shared budget. When the page is shared as a link, every change is visible to all — one single source, kept up to date.</p>
   </div>
   <div class="roster">
     <div class="fam">
       <div class="cap">Couple 1</div>
       <div class="adults">Anne-Sophie &amp; Stephen</div>
-      <div class="kids">👦 William, 8 ans</div>
+      <div class="kids">👦 William, 8</div>
     </div>
     <div class="fam">
       <div class="cap">Couple 2</div>
@@ -430,14 +429,14 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
     <div class="fam">
       <div class="cap">Couple 3</div>
       <div class="adults">Pierre-Alexandre &amp; Amandine</div>
-      <div class="kids">👧 Apolline, 1 an ½</div>
+      <div class="kids">👧 Apolline, 18 months</div>
     </div>
   </div>
   <div class="pill-list">
-    <span class="mini">🎒 Porte-bébé (dos) pour Apolline sur les sentiers</span>
-    <span class="mini">🚼 Poussette pour les villages &amp; le front de mer</span>
-    <span class="mini">🚗 3 voitures = liberté totale</span>
-    <span class="mini">🔥 Barbecue à la villa</span>
+    <span class="mini">🎒 Back carrier for Apolline on the trails</span>
+    <span class="mini">🚼 Stroller for villages &amp; seafronts</span>
+    <span class="mini">🚗 3 cars = total freedom</span>
+    <span class="mini">🔥 Barbecue at the villa</span>
   </div>
 </section>
 <hr class="divider">
@@ -445,38 +444,38 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
 <!-- ============ LA VILLA ============ -->
 <section class="band" id="base">
   <div class="section-head">
-    <span class="eyebrow">Notre camp de base</span>
-    <h2 class="h-sec">La villa, à 5 min de la plage</h2>
-    <p class="lead">Carrer del Pinar 32, à San Jaime Mediterráneo — juste au-dessus de l’immense plage de Son Bou, avec sa <strong>piscine privée</strong>. La plupart des soirées se passent ici, au barbecue, les enfants dans l’eau puis couchés à côté.</p>
+    <span class="eyebrow">Our base camp</span>
+    <h2 class="h-sec">The villa, 5 min from the beach</h2>
+    <p class="lead">Carrer del Pinar 32, San Jaime Mediterráneo — right above the huge Son Bou beach, with its <strong>private pool</strong>. Most evenings happen here, around the barbecue, kids in the water then asleep next door.</p>
   </div>
   <div class="grid g2">
     <div class="card">
-      <span class="tag t-info">📍 Adresse</span>
+      <span class="tag t-info">📍 Address</span>
       <h3 class="serif" style="font-size:1.7rem;color:var(--deep);margin:10px 0 4px">Carrer del Pinar, 32</h3>
-      <p style="color:var(--ink-soft)">San Jaime Mediterráneo · 07730 · Minorque</p>
+      <p style="color:var(--ink-soft)">San Jaime Mediterráneo · 07730 · Menorca</p>
       <div class="foot" style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap">
-        <a class="btn btn-map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Carrer%20del%20Pinar%2032%2C%20San%20Jaime%20Mediterr%C3%A1neo%2C%2007730%20Menorca">🗺️ Ouvrir la villa</a>
-        <a class="btn btn-ghost" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Aeroport%20de%20Menorca%20MAH&destination=Carrer%20del%20Pinar%2032%2C%20San%20Jaime%20Mediterr%C3%A1neo%20Menorca&travelmode=driving">✈️ Itinéraire aéroport → villa</a>
+        <a class="btn btn-map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Carrer%20del%20Pinar%2032%2C%20San%20Jaime%20Mediterr%C3%A1neo%2C%2007730%20Menorca">🗺️ Open the villa</a>
+        <a class="btn btn-ghost" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Aeroport%20de%20Menorca%20MAH&destination=Carrer%20del%20Pinar%2032%2C%20San%20Jaime%20Mediterr%C3%A1neo%20Menorca&travelmode=driving">✈️ Airport → villa directions</a>
       </div>
     </div>
     <div class="card">
-      <span class="tag t-info">🏊 Le luxe du séjour</span>
-      <h3 class="serif" style="font-size:1.7rem;color:var(--deep);margin:10px 0 4px">Piscine + plage à 5 min</h3>
-      <p style="color:var(--ink-soft)">La piscine privée change tout avec des enfants : elle sauve les après-midi de grosse chaleur pendant la sieste d’Apolline, et devient l’aire de jeu des garçons après la plage. On alterne mer le matin, piscine l’après-midi.</p>
+      <span class="tag t-info">🏊 The trip’s luxury</span>
+      <h3 class="serif" style="font-size:1.7rem;color:var(--deep);margin:10px 0 4px">Pool + beach 5 min away</h3>
+      <p style="color:var(--ink-soft)">A private pool changes everything with kids: it saves the scorching afternoons during Apolline’s nap and becomes the boys’ playground after the beach. Sea in the morning, pool in the afternoon.</p>
       <div class="pill-list">
-        <span class="mini">🏊 Baignade surveillée par les parents à tour de rôle</span>
-        <span class="mini">🌳 Ombre + apéro au bord du bassin</span>
+        <span class="mini">🏊 Swimming watched by parents in turns</span>
+        <span class="mini">🌳 Shade + drinks by the pool</span>
       </div>
     </div>
     <div class="card">
-      <span class="tag t-info">✈️ Les deux bouts</span>
+      <span class="tag t-info">✈️ Both ends</span>
       <div class="slot" style="border-color:var(--line)">
-        <div class="when">Arrivée<small>Ven. 25/07</small></div>
-        <div class="what"><strong>Atterrissage 12h55</strong><p>Récupération des 3 voitures, ~25 min de route jusqu’à la villa, installation puis premier bain.</p></div>
+        <div class="when">Arrival<small>Fri 25/07</small></div>
+        <div class="what"><strong>Landing 12:55</strong><p>Pick up the 3 cars, ~25 min drive to the villa, settle in, first swim.</p></div>
       </div>
       <div class="slot">
-        <div class="when">Départ<small>Ven. 01/08</small></div>
-        <div class="what"><strong>Décollage 14h40</strong><p>Viser l’aéroport vers 12h40. Matinée tranquille : dernier bain, brunch, ménage et restitution.</p></div>
+        <div class="when">Departure<small>Fri 01/08</small></div>
+        <div class="what"><strong>Take-off 14:40</strong><p>Aim for the airport around 12:40. Easy morning: last swim, brunch, tidy-up and hand-over.</p></div>
       </div>
     </div>
   </div>
@@ -486,17 +485,17 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
 <!-- ============ CARTE ============ -->
 <section class="band" id="carte">
   <div class="section-head">
-    <span class="eyebrow">Vue d’ensemble</span>
-    <h2 class="h-sec">La carte de nos points</h2>
-    <p class="lead">Tous les lieux de la plateforme réunis sur une carte : la villa, les plages, les restaurants, les supermarchés et les sites. Touchez un point pour voir son nom et lancer l’itinéraire depuis la villa.</p>
+    <span class="eyebrow">The big picture</span>
+    <h2 class="h-sec">Our spots on a map</h2>
+    <p class="lead">Every place on the platform, on one map: the villa, beaches, restaurants, supermarkets and sights. Tap a pin to see its name and launch directions from the villa.</p>
   </div>
   <div id="map"></div>
   <div class="map-legend">
-    <span><i style="background:#06343c"></i> Notre villa</span>
-    <span><i style="background:#2fb0a1"></i> Plages &amp; calas</span>
+    <span><i style="background:#06343c"></i> Our villa</span>
+    <span><i style="background:#2fb0a1"></i> Beaches &amp; calas</span>
     <span><i style="background:#d9552f"></i> Restaurants</span>
-    <span><i style="background:#b47f1f"></i> Courses</span>
-    <span><i style="background:#0d6068"></i> Sites &amp; villages</span>
+    <span><i style="background:#b47f1f"></i> Groceries</span>
+    <span><i style="background:#0d6068"></i> Sights &amp; villages</span>
   </div>
 </section>
 <hr class="divider">
@@ -504,25 +503,25 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
 <!-- ============ LE RYTHME ============ -->
 <section class="band wash" id="rythme">
   <div class="section-head">
-    <span class="eyebrow">Fin juillet, il fait chaud</span>
-    <h2 class="h-sec">Le rythme de la semaine</h2>
-    <p class="lead">On cale la journée sur la chaleur et sur les siestes des petits : le meilleur se vit tôt le matin et en soirée, avec un vrai temps calme au cœur de l’après-midi.</p>
+    <span class="eyebrow">Late July gets hot</span>
+    <h2 class="h-sec">The week’s rhythm</h2>
+    <p class="lead">We shape the day around the heat and the little ones’ naps: the best happens early morning and in the evening, with real downtime in mid-afternoon.</p>
   </div>
   <div class="grid g3">
     <div class="card">
       <span class="tag t-info">☀️ 8h – 13h</span>
-      <h3 class="serif" style="font-size:1.4rem;color:var(--deep);margin:8px 0 4px">Le matin, le vif</h3>
-      <p style="color:var(--ink-soft)">Plages et calas tôt (avant la foule et les parkings pleins), visites de villages à l’ombre des ruelles. C’est le moment des sorties.</p>
+      <h3 class="serif" style="font-size:1.4rem;color:var(--deep);margin:8px 0 4px">Morning, the action</h3>
+      <p style="color:var(--ink-soft)">Beaches and calas early (before the crowds and full car parks), village strolls in the shade. This is outing time.</p>
     </div>
     <div class="card" style="border-color:var(--turq)">
       <span class="tag t-relax">🌿 13h – 17h</span>
-      <h3 class="serif" style="font-size:1.4rem;color:var(--deep);margin:8px 0 4px">L’après-midi, le calme</h3>
-      <p style="color:var(--ink-soft)">Retour villa, déjeuner, sieste d’Apolline, <strong>piscine privée</strong> et ombre. On ne lutte pas contre le soleil de 15h — on en profite pour souffler au bord du bassin.</p>
+      <h3 class="serif" style="font-size:1.4rem;color:var(--deep);margin:8px 0 4px">Afternoon, the calm</h3>
+      <p style="color:var(--ink-soft)">Back to the villa, lunch, Apolline’s nap, <strong>private pool</strong> and shade. We don’t fight the 3pm sun — we use it to breathe by the pool.</p>
     </div>
     <div class="card">
       <span class="tag t-bbq">🔥 19h – tard</span>
-      <h3 class="serif" style="font-size:1.4rem;color:var(--deep);margin:8px 0 4px">Le soir, ensemble</h3>
-      <p style="color:var(--ink-soft)">Barbecue à la villa ou restaurant. Les dîners sont pensés poisson &amp; poulet, avec des adresses testées et bien notées.</p>
+      <h3 class="serif" style="font-size:1.4rem;color:var(--deep);margin:8px 0 4px">Evening, together</h3>
+      <p style="color:var(--ink-soft)">Barbecue at the villa or a restaurant. Dinners lean fish &amp; chicken, with vetted, well-rated spots.</p>
     </div>
   </div>
 </section>
@@ -531,9 +530,9 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
 <!-- ============ PROGRAMME ============ -->
 <section class="band" id="programme">
   <div class="section-head">
-    <span class="eyebrow">Jour par jour</span>
-    <h2 class="h-sec">Le programme de la semaine</h2>
-    <p class="lead">Une trame souple avec, à chaque journée, des options. Rien n’est figé : votez et commentez en bas de chaque jour pour l’adapter ensemble. Les distances sont calculées depuis la villa.</p>
+    <span class="eyebrow">Day by day</span>
+    <h2 class="h-sec">The week’s schedule</h2>
+    <p class="lead">A flexible outline with options on every day. Nothing is set in stone: vote and comment under each day to shape it together. All distances are from the villa.</p>
   </div>
   <div id="days"></div>
 </section>
@@ -542,15 +541,15 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
 <!-- ============ RESTAURANTS ============ -->
 <section class="band" id="restaurants">
   <div class="section-head">
-    <span class="eyebrow">Par thème · à table</span>
-    <h2 class="h-sec">Restaurants possibles</h2>
-    <p class="lead">Une sélection d’adresses bien notées, du plus proche (à pied depuis la villa) au coup de cœur qui mérite la route. Chaque fiche a son lien « en savoir plus » (avis, photos, horaires, site) et son itinéraire.</p>
+    <span class="eyebrow">By theme · at the table</span>
+    <h2 class="h-sec">Restaurant options</h2>
+    <p class="lead">A selection of well-rated places, from a short walk from the villa to the favourite worth the drive. Each card has a “learn more” link (reviews, photos, hours, website) and directions.</p>
   </div>
-  <h3 class="serif" style="font-size:1.5rem;color:var(--coral-deep);margin-bottom:14px">À pied · Son Bou</h3>
+  <h3 class="serif" style="font-size:1.5rem;color:var(--coral-deep);margin-bottom:14px">On foot · Son Bou</h3>
   <div class="grid g2" id="resto-sonbou" style="margin-bottom:34px"></div>
-  <h3 class="serif" style="font-size:1.5rem;color:var(--coral-deep);margin-bottom:14px">À ~15 min · Alaior</h3>
+  <h3 class="serif" style="font-size:1.5rem;color:var(--coral-deep);margin-bottom:14px">~15 min away · Alaior</h3>
   <div class="grid g2" id="resto-alaior" style="margin-bottom:34px"></div>
-  <h3 class="serif" style="font-size:1.5rem;color:var(--coral-deep);margin-bottom:14px">La route vaut le détour · Fornells &amp; Ciutadella</h3>
+  <h3 class="serif" style="font-size:1.5rem;color:var(--coral-deep);margin-bottom:14px">Worth the drive · Fornells &amp; Ciutadella</h3>
   <div class="grid g2" id="resto-loin"></div>
 </section>
 <hr class="divider">
@@ -558,14 +557,14 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
 <!-- ============ COURSES ============ -->
 <section class="band wash" id="courses">
   <div class="section-head">
-    <span class="eyebrow">Par thème · l’intendance</span>
-    <h2 class="h-sec">Courses &amp; supermarchés</h2>
-    <p class="lead">Le dépannage est au coin de la rue ; pour la grande course de la semaine (10 personnes, ça compte !), les grandes surfaces de Maó sont moins chères. Distances calculées depuis la villa.</p>
+    <span class="eyebrow">By theme · supplies</span>
+    <h2 class="h-sec">Groceries &amp; supermarkets</h2>
+    <p class="lead">Quick top-ups are around the corner; for the big weekly shop (10 people — it adds up!), Maó’s big stores are cheaper. Distances from the villa.</p>
   </div>
   <div class="grid g3" id="shops"></div>
   <div class="callout" style="margin-top:26px">
     <span class="ic">💡</span>
-    <div><strong>Le bon plan intendance</strong><p style="color:var(--ink-soft);margin-top:4px">Faire la grosse course le jour de Maó (J6) : on combine la visite et le plein de courses au Mercadona / Lidl, bien moins chers que les supérettes de Son Bou. Le petit marché du coin (Sant Jaume, 4 min à pied) reste parfait pour le pain, l’apéro et les oublis.</p></div>
+    <div><strong>The smart supply plan</strong><p style="color:var(--ink-soft);margin-top:4px">Do the big shop on Maó day (D6): combine the visit with a full Mercadona / Lidl run, far cheaper than Son Bou’s minimarkets. The corner shop (Sant Jaume, 4 min walk) stays perfect for bread, aperitivo and forgotten items.</p></div>
   </div>
 </section>
 <hr class="divider">
@@ -573,13 +572,13 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
 <!-- ============ SITES & PLAGES ============ -->
 <section class="band" id="sites">
   <div class="section-head">
-    <span class="eyebrow">Par thème · à voir</span>
-    <h2 class="h-sec">Sites incontournables &amp; plages</h2>
-    <p class="lead">Les plus belles criques, les villages de carte postale et le site préhistorique du coin. Chaque lieu indique le portage adapté aux enfants : 🎒 porte-bébé sur les sentiers, 🚼 poussette possible.</p>
+    <span class="eyebrow">By theme · to see</span>
+    <h2 class="h-sec">Must-see sights &amp; beaches</h2>
+    <p class="lead">The most beautiful coves, postcard villages and the local prehistoric site. Each place shows the right kid-carrying option: 🎒 baby carrier on trails, 🚼 stroller-friendly.</p>
   </div>
-  <h3 class="serif" style="font-size:1.5rem;color:var(--coral-deep);margin-bottom:14px">🏖️ Plages &amp; calas</h3>
+  <h3 class="serif" style="font-size:1.5rem;color:var(--coral-deep);margin-bottom:14px">🏖️ Beaches &amp; calas</h3>
   <div class="grid g2" id="beaches" style="margin-bottom:34px"></div>
-  <h3 class="serif" style="font-size:1.5rem;color:var(--coral-deep);margin-bottom:14px">🏛️ Villages &amp; patrimoine</h3>
+  <h3 class="serif" style="font-size:1.5rem;color:var(--coral-deep);margin-bottom:14px">🏛️ Villages &amp; heritage</h3>
   <div class="grid g2" id="sitescult"></div>
 </section>
 <hr class="divider">
@@ -587,33 +586,33 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
 <!-- ============ BBQ ============ -->
 <section class="band wash" id="bbq">
   <div class="section-head">
-    <span class="eyebrow">On a un barbecue</span>
-    <h2 class="h-sec">Idées barbecue · poisson &amp; poulet</h2>
-    <p class="lead">Des soirées faciles à la villa, avec les enfants qui jouent à côté. À compléter au marché de Maó pour le poisson frais et à la coopérative d’Alaior pour la viande.</p>
+    <span class="eyebrow">We’ve got a barbecue</span>
+    <h2 class="h-sec">Barbecue ideas · fish &amp; chicken</h2>
+    <p class="lead">Easy villa evenings with the kids playing nearby. Top up at Maó market for fresh fish and the Alaior cooperative for meat.</p>
   </div>
   <div class="grid g3">
     <div class="card">
-      <span class="tag t-chick">🍗 Poulet</span>
+      <span class="tag t-chick">🍗 Chicken</span>
       <ul style="margin:12px 0 0 18px;color:var(--ink-soft);font-size:.95rem;line-height:1.9">
-        <li>Brochettes citron · origan · ail</li>
-        <li>Cuisses marinées miel &amp; paprika fumé</li>
-        <li>Pilons au romarin pour les enfants</li>
+        <li>Lemon · oregano · garlic skewers</li>
+        <li>Thighs in honey &amp; smoked paprika</li>
+        <li>Rosemary drumsticks for the kids</li>
       </ul>
     </div>
     <div class="card">
-      <span class="tag t-fish">🐟 Poisson</span>
+      <span class="tag t-fish">🐟 Fish</span>
       <ul style="margin:12px 0 0 18px;color:var(--ink-soft);font-size:.95rem;line-height:1.9">
-        <li>Dorade ou bar entier, gros sel &amp; fenouil</li>
-        <li>Brochettes de gambas à l’ail</li>
-        <li>Pavés de thon / espadon du marché</li>
+        <li>Whole sea bream or bass, rock salt &amp; fennel</li>
+        <li>Garlic prawn skewers</li>
+        <li>Tuna / swordfish steaks from the market</li>
       </ul>
     </div>
     <div class="card">
-      <span class="tag t-veg">🥗 Autour</span>
+      <span class="tag t-veg">🥗 On the side</span>
       <ul style="margin:12px 0 0 18px;color:var(--ink-soft);font-size:.95rem;line-height:1.9">
-        <li>Légumes grillés (poivrons, courgettes)</li>
-        <li>Pommes de terre en papillote, allioli</li>
-        <li>Apéro local : fromage de Mahón, sobrassada</li>
+        <li>Grilled vegetables (peppers, courgettes)</li>
+        <li>Foil-baked potatoes, allioli</li>
+        <li>Local aperitivo: Mahón cheese, sobrassada</li>
       </ul>
     </div>
   </div>
@@ -623,42 +622,42 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
 <!-- ============ BUDGET ============ -->
 <section class="band" id="budget">
   <div class="section-head">
-    <span class="eyebrow">Compte commun</span>
-    <h2 class="h-sec">Le budget partagé</h2>
-    <p class="lead">Chaque couple note ce qu’il paie pour le groupe (courses, restos, essence, activités…). La plateforme calcule automatiquement la part de chacun et qui doit rembourser qui en fin de séjour. Tout est partagé et à jour pour les 3 couples.</p>
+    <span class="eyebrow">Shared account</span>
+    <h2 class="h-sec">The shared budget</h2>
+    <p class="lead">Each couple logs what they pay for the group (groceries, restaurants, fuel, activities…). The platform automatically works out everyone’s share and who pays back whom at the end. Shared and up to date for all 3 couples.</p>
   </div>
   <div class="budget-wrap">
-    <div class="eyebrow">Dépenses communes · 3 couples</div>
+    <div class="eyebrow">Shared expenses · 3 couples</div>
     <div class="bud-grid">
       <div class="bud-panel">
-        <h4>Ajouter une dépense</h4>
+        <h4>Add an expense</h4>
         <div class="exp-form">
-          <input class="full" id="expLabel" placeholder="Ex : courses Mercadona, dîner Casa Andres…">
-          <input id="expAmount" type="number" min="0" step="0.01" placeholder="Montant €">
+          <input class="full" id="expLabel" placeholder="E.g. Mercadona shop, dinner at Casa Andrés…">
+          <input id="expAmount" type="number" min="0" step="0.01" placeholder="Amount €">
           <select id="expPayer"></select>
           <select id="expCat" class="full">
-            <option value="🛒 Courses">🛒 Courses</option>
+            <option value="🛒 Groceries">🛒 Groceries</option>
             <option value="🍽️ Restaurant">🍽️ Restaurant</option>
-            <option value="⛽ Essence">⛽ Essence</option>
-            <option value="🎟️ Activité">🎟️ Activité</option>
-            <option value="🏠 Villa / location">🏠 Villa / location</option>
-            <option value="✨ Autre">✨ Autre</option>
+            <option value="⛽ Fuel">⛽ Fuel</option>
+            <option value="🎟️ Activity">🎟️ Activity</option>
+            <option value="🏠 Villa / rental">🏠 Villa / rental</option>
+            <option value="✨ Other">✨ Other</option>
           </select>
-          <button class="btn btn-coral full" onclick="addExpense()">+ Ajouter la dépense</button>
+          <button class="btn btn-coral full" onclick="addExpense()">+ Add expense</button>
         </div>
         <div class="exp-list" id="expList"></div>
       </div>
       <div class="bud-panel">
-        <h4>Qui doit quoi</h4>
+        <h4>Who owes what</h4>
         <div class="settle">
-          <div>Total commun<div class="tot" id="budTotal">0 €</div></div>
-          <div class="tiny" style="color:var(--turq-soft)">Part par couple : <b id="budShare">0 €</b></div>
+          <div>Group total<div class="tot" id="budTotal">0 €</div></div>
+          <div class="tiny" style="color:var(--turq-soft)">Share per couple: <b id="budShare">0 €</b></div>
           <div id="balances" style="display:flex;flex-direction:column;gap:9px;margin-top:6px"></div>
           <div class="transfers" id="transfers"></div>
         </div>
       </div>
     </div>
-    <p class="tiny" style="color:rgba(234,246,243,.6);margin-top:16px">Astuce : renommez les couples en cliquant sur leur nom dans la colonne « Qui doit quoi ».</p>
+    <p class="tiny" style="color:rgba(234,246,243,.6);margin-top:16px">Tip: rename the couples by tapping their name in the “Who owes what” column.</p>
   </div>
 </section>
 <hr class="divider">
@@ -666,26 +665,26 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
 <!-- ============ IDÉES ============ -->
 <section class="band" id="idees">
   <div class="section-head">
-    <span class="eyebrow">Le mur du groupe</span>
-    <h2 class="h-sec">Idées &amp; envies de chacun</h2>
-    <p class="lead">Une envie de crique, un resto repéré, une activité pour les enfants, une contrainte d’horaire ? Notez-la ici, tout le monde la verra.</p>
+    <span class="eyebrow">The group wall</span>
+    <h2 class="h-sec">Everyone’s ideas &amp; wishes</h2>
+    <p class="lead">A cove you fancy, a restaurant you spotted, a kids’ activity, a timing constraint? Drop it here for everyone to see.</p>
   </div>
   <div class="board-add">
-    <input class="name" id="boardName" placeholder="Votre prénom" style="width:150px">
-    <input id="boardMsg" placeholder="Votre idée ou remarque…" style="flex:1;min-width:200px">
-    <button class="btn btn-coral" onclick="addNote()">Publier</button>
+    <input class="name" id="boardName" placeholder="Your first name" style="width:150px">
+    <input id="boardMsg" placeholder="Your idea or note…" style="flex:1;min-width:200px">
+    <button class="btn btn-coral" onclick="addNote()">Post</button>
   </div>
   <div class="board-list" id="boardList"></div>
 </section>
 
 <footer>
-  <span class="serif">Fes-ho bé — passez un beau séjour ✦</span>
-  <p>Minorque · 25 juillet → 1<sup>er</sup> août · Anne-Sophie &amp; Stephen · Céline &amp; Cédric · Pierre-Alexandre &amp; Amandine</p>
+  <span class="serif">Fes-ho bé — have a wonderful stay ✦</span>
+  <p>Menorca · July 25 → August 1 · Anne-Sophie &amp; Stephen · Céline &amp; Cédric · Pierre-Alexandre &amp; Amandine</p>
   <p class="tiny" style="color:rgba(255,255,255,.5);margin-top:10px" id="footNote"></p>
 </footer>
 
 <div class="toast" id="toast"></div>
-<button class="topbtn" id="topbtn" aria-label="Revenir au menu" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<button class="topbtn" id="topbtn" aria-label="Back to menu" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
 <script>
 /* ================= DONNÉES ================= */
@@ -712,90 +711,90 @@ function sceneSVG(type){
 }
 
 const RESTOS_SONBOU=[
- {n:"Casa Andrés",cui:"Poisson & viande",r:4.6,c:1379,lat:39.8992,lng:4.0778,pid:"ChIJ3afIKLCKlRIR9atQYmpzIW4",dist:"3 min en voiture · 10 min à pied",tags:["🐟 Poisson"],hours:"12h30–22h30 · <b>fermé lundi</b>",d:"La valeur sûre de Son Bou. Poissons du jour, bar, thon rouge, lapin local. Réservation vivement conseillée."},
- {n:"Es Jardí des Temple",cui:"Méditerranéen · paella",r:4.6,c:607,lat:39.8996,lng:4.0782,pid:"ChIJC2RRcSiLlRIRYNjxvbzt44c",dist:"3 min en voiture · 10 min à pied",tags:["🐟 Poisson","🥗 Végé/sans gluten"],hours:"12h–23h · <b>fermé mardi</b>",d:"Grand jardin idéal en groupe avec enfants. Belle paella, options végé et sans gluten expliquées avec soin."},
- {n:"The Cardamom",cui:"Indien",r:4.9,c:309,lat:39.8996,lng:4.0778,pid:"ChIJY7wZHACLlRIRQOUV9TkgTDI",dist:"3 min en voiture · 10 min à pied",tags:["🍗 Poulet"],hours:"13h–15h30 & 18h–23h30",d:"La meilleure note du coin. Poulet et agneau parfumés, service adorable — un dîner qui change."},
- {n:"Alessandro’s",cui:"Italien · fruits de mer",r:4.2,c:1137,lat:39.8999,lng:4.0768,pid:"ChIJqfn1OrCKlRIRFJSZvJBBVxA",dist:"2 min en voiture · 8 min à pied",tags:["🐟 Poisson","👶 Familial"],hours:"11h–23h",d:"Pâtes maison, poissons et pizzas : le choix facile et rapide quand tout le monde a faim, enfants compris."},
- {n:"Son Bou Gardens",cui:"Grill · tapas · piscine",r:4.7,c:46,lat:39.9018,lng:4.0752,pid:"ChIJP0yKAqiLlRIRo0R8dexizjg",dist:"1 min en voiture · 5 min à pied",tags:["🔥 Grill","🏊 Piscine"],hours:"11h–23h · barbecue le week-end",d:"Burgers, tapas et barbecue le week-end autour d’une piscine (≈4 €/pers). Parfait pour un déjeuner ou une pause enfants."}
+ {n:"Casa Andrés",cui:"Fish & meat",r:4.6,c:1379,lat:39.8992,lng:4.0778,pid:"ChIJ3afIKLCKlRIR9atQYmpzIW4",dist:"3 min drive · 10 min walk",tags:["🐟 Fish"],hours:"12:30–22:30 · <b>closed Monday</b>",d:"Son Bou’s reliable favourite. Catch of the day, sea bass, red tuna, local rabbit. Booking strongly advised."},
+ {n:"Es Jardí des Temple",cui:"Mediterranean · paella",r:4.6,c:607,lat:39.8996,lng:4.0782,pid:"ChIJC2RRcSiLlRIRYNjxvbzt44c",dist:"3 min drive · 10 min walk",tags:["🐟 Fish","🥗 Veggie/gluten-free"],hours:"12:00–23:00 · <b>closed Tuesday</b>",d:"A big garden, ideal for a group with kids. Lovely paella, veggie and gluten-free options carefully explained."},
+ {n:"The Cardamom",cui:"Indian",r:4.9,c:309,lat:39.8996,lng:4.0778,pid:"ChIJY7wZHACLlRIRQOUV9TkgTDI",dist:"3 min drive · 10 min walk",tags:["🍗 Chicken"],hours:"13:00–15:30 & 18:00–23:30",d:"The best rating around. Fragrant chicken and lamb, adorable service — a dinner with a difference."},
+ {n:"Alessandro’s",cui:"Italian · seafood",r:4.2,c:1137,lat:39.8999,lng:4.0768,pid:"ChIJqfn1OrCKlRIRFJSZvJBBVxA",dist:"2 min drive · 8 min walk",tags:["🐟 Fish","👶 Family"],hours:"11:00–23:00",d:"Homemade pasta, fish and pizzas: the quick, easy choice when everyone is hungry, kids included."},
+ {n:"Son Bou Gardens",cui:"Grill · tapas · pool",r:4.7,c:46,lat:39.9018,lng:4.0752,pid:"ChIJP0yKAqiLlRIRo0R8dexizjg",dist:"1 min drive · 5 min walk",tags:["🔥 Grill","🏊 Pool"],hours:"11:00–23:00 · weekend barbecue",d:"Burgers, tapas and weekend barbecue around a pool (≈€4/pers). Great for lunch or a kids’ break."}
 ];
 const RESTOS_ALAIOR=[
- {n:"Es Festuc",cui:"Tapas créatives",r:4.6,c:441,lat:39.9342,lng:4.1388,pid:"ChIJVReIy8UgvhIRVbLXmtZPSbs",dist:"~15 min en voiture",tags:["🐟 Poisson","✨ Coup de cœur"],hours:"18h30–22h30 · <b>fermé dim. & lun.</b>",d:"Petite pépite pour un dîner d’adieu : cannellonis aubergine-gambas, carpaccio de bœuf, jolie carte des vins. Réserver (peu de tables)."},
- {n:"Bar Restaurant Romandre",cui:"Gastropub",r:4.9,c:62,lat:39.9338,lng:4.1399,pid:"ChIJQbl_r-4hvhIR_iCIqCoYlRk",dist:"~15 min en voiture",tags:["🍔 Déjeuner"],hours:"jusqu’à 14h30 puis 18h30–23h",d:"Halte déjeuner impeccable dans Alaior : burger à la truffe, tapas fraîches, prix justes, staff aux petits soins."},
- {n:"Bar Géminis",cui:"Bar · tapas",r:4.3,c:701,lat:39.9314,lng:4.1385,pid:"ChIJx0rQjYWKlRIRz0KOVgW53dw",dist:"~15 min en voiture",tags:["🍗 Poulet","💶 Économique"],hours:"tôt le matin → tard",d:"Ambiance locale et prix doux : poulet au curry, poulpe, boulettes. Ouvre tôt et ferme tard, pratique avec des horaires d’enfants."}
+ {n:"Es Festuc",cui:"Creative tapas",r:4.6,c:441,lat:39.9342,lng:4.1388,pid:"ChIJVReIy8UgvhIRVbLXmtZPSbs",dist:"~15 min drive",tags:["🐟 Fish","✨ Favourite"],hours:"18:30–22:30 · <b>closed Sun & Mon</b>",d:"A little gem for a farewell dinner: aubergine-prawn cannelloni, beef carpaccio, lovely wine list. Book (few tables)."},
+ {n:"Bar Restaurant Romandre",cui:"Gastropub",r:4.9,c:62,lat:39.9338,lng:4.1399,pid:"ChIJQbl_r-4hvhIR_iCIqCoYlRk",dist:"~15 min drive",tags:["🍔 Lunch"],hours:"until 14:30 then 18:30–23:00",d:"A perfect lunch stop in Alaior: truffle burger, fresh tapas, fair prices, caring staff."},
+ {n:"Bar Géminis",cui:"Bar · tapas",r:4.3,c:701,lat:39.9314,lng:4.1385,pid:"ChIJx0rQjYWKlRIRz0KOVgW53dw",dist:"~15 min drive",tags:["🍗 Chicken","💶 Budget"],hours:"early morning → late",d:"Local vibe and gentle prices: curry chicken, octopus, meatballs. Opens early and closes late — handy with kids’ schedules."}
 ];
 const RESTOS_LOIN=[
- {n:"Sa Taula · Fornells",cui:"Méditerranéen · rooftop",r:4.6,c:1370,lat:40.0559,lng:4.1307,pid:"ChIJfb1jVz8jvhIR5TjVi0fMiEQ",dist:"~30 min en voiture",tags:["🐟 Poisson"],hours:"12h30–15h30 & 19h30–1h",d:"Terrasse sur les toits du village de pêcheurs. Croquettes de gambas mémorables, service chaleureux."},
- {n:"Can Tanu · Fornells",cui:"Poisson traditionnel",r:4.6,c:1934,lat:40.0561,lng:4.1311,pid:"ChIJJwM9qUAjvhIRSEMlb__uLuo",dist:"~30 min en voiture",tags:["🐟 Poisson"],hours:"12h–16h & 19h–23h · <b>fermé lundi</b>",d:"L’adresse locale pour le poisson frais et la caldereta. Demandez l’arrivage du jour."},
- {n:"Entre Suros · Ciutadella",cui:"Méditerranéen",r:4.8,c:826,lat:40.0020,lng:3.8396,pid:"ChIJV52lUEQFvhIRNtmMUi_Paq4",dist:"~45 min en voiture",tags:["🐟 Poisson","✨ Coup de cœur"],hours:"12h30–15h30 & 19h30–23h · <b>fermé jeudi</b>",d:"Souvent cité comme le meilleur de l’île. Poisson ultra-frais, cheesecake culte, menus en français. Réserver."},
- {n:"Molí des Comte · Ciutadella",cui:"Asador · paella",r:4.5,c:4466,lat:40.0028,lng:3.8412,pid:"ChIJHxTtywsEvhIRuRMetTHu-IA",dist:"~45 min en voiture",tags:["🍗 Poulet","👶 Familial"],hours:"8h–00h · <b>fermé dimanche</b>",d:"Grillades et paella généreuses dans un cadre superbe : idéal pour un déjeuner de groupe après la vieille ville."}
+ {n:"Sa Taula · Fornells",cui:"Mediterranean · rooftop",r:4.6,c:1370,lat:40.0559,lng:4.1307,pid:"ChIJfb1jVz8jvhIR5TjVi0fMiEQ",dist:"~30 min drive",tags:["🐟 Fish"],hours:"12:30–15:30 & 19:30–1:00",d:"A rooftop terrace over the fishing village. Memorable prawn croquettes, warm service."},
+ {n:"Can Tanu · Fornells",cui:"Traditional fish",r:4.6,c:1934,lat:40.0561,lng:4.1311,pid:"ChIJJwM9qUAjvhIRSEMlb__uLuo",dist:"~30 min drive",tags:["🐟 Fish"],hours:"12:00–16:00 & 19:00–23:00 · <b>closed Monday</b>",d:"The locals’ spot for fresh fish and caldereta. Ask for the day’s catch."},
+ {n:"Entre Suros · Ciutadella",cui:"Mediterranean",r:4.8,c:826,lat:40.0020,lng:3.8396,pid:"ChIJV52lUEQFvhIRNtmMUi_Paq4",dist:"~45 min drive",tags:["🐟 Fish","✨ Favourite"],hours:"12:30–15:30 & 19:30–23:00 · <b>closed Thursday</b>",d:"Often named the island’s best. Ultra-fresh fish, cult cheesecake. Book ahead."},
+ {n:"Molí des Comte · Ciutadella",cui:"Asador · paella",r:4.5,c:4466,lat:40.0028,lng:3.8412,pid:"ChIJHxTtywsEvhIRuRMetTHu-IA",dist:"~45 min drive",tags:["🍗 Chicken","👶 Family"],hours:"8:00–24:00 · <b>closed Sunday</b>",d:"Generous grills and paella in a superb setting: ideal for a group lunch after the old town."}
 ];
 const SHOPS=[
- {n:"Supermercado Sant Jaume",cui:"Dépannage · au coin",r:3.8,c:283,lat:39.9030,lng:4.0733,pid:"ChIJ-4GIR6yKlRIRpB9eQiWWEr4",dist:"4 min à pied",tags:["🥖 Dépannage"],hours:"8h–21h · 7j/7",d:"Le plus proche, au coin de la rue. Parfait pour le pain, l’apéro et les oublis. Un peu cher : à réserver au dépannage."},
- {n:"La Masia · centre Son Bou",cui:"Épicerie de station",r:3.8,c:108,lat:39.8994,lng:4.0784,pid:"ChIJRzNcILCKlRIRrz1H7FpFWKs",dist:"3 min en voiture · 10 min à pied",tags:["🛟 Plage/enfants"],hours:"8h–21h · 7j/7",d:"Au centre commercial de Son Bou : fruits & légumes, viennoiseries, bouées et jouets de plage pour les enfants."},
- {n:"Binipreu · Alaior",cui:"Grande surface",r:4.1,c:558,lat:39.9365,lng:4.1445,pid:"ChIJQZblRc4gvhIRIjY9jlFr5PA",dist:"~13 min en voiture",tags:["🐟 Poissonnerie","☕ Café"],hours:"8h30–21h (dim. 9h–14h)",d:"Grande surface complète avec beau rayon poissonnerie et café attenant. Bien pour un ravitaillement de milieu de semaine."},
- {n:"Coop. San Crispín · Alaior",cui:"Coopérative locale",r:4.2,c:480,lat:39.9342,lng:4.1472,pid:"ChIJC9oxhs4gvhIR28Yoqf0r3QU",dist:"~13 min en voiture",tags:["🥩 Boucherie","🚚 Livraison"],hours:"8h30–21h · <b>fermé dim.</b>",d:"Coopérative de qualité (viande, produits locaux). Livraison possible jusqu’à Son Bou — pratique pour la grosse course."},
- {n:"Mercadona · Maó",cui:"Grande course",r:4.1,c:3009,lat:39.8845,lng:4.2366,pid:"ChIJp8mO6-CHlRIRjAshpodtwWs",dist:"~22 min en voiture",tags:["💶 Grande course","💶 Moins cher"],hours:"9h–22h (dim. 9h–15h)",d:"La grande course de la semaine, bien moins chère. À combiner avec la journée à Maó (J6). Éviter le milieu d’après-midi en août."},
- {n:"Lidl · Maó",cui:"Discount",r:4.3,c:2594,lat:39.8862,lng:4.2496,pid:"ChIJzU-ePeiHlRIRox5P9CgvwI0",dist:"~24 min en voiture",tags:["💶 Moins cher","🅿️ Parking couvert"],hours:"9h–22h · 7j/7",d:"Alternative économique à Maó, parking couvert bien pratique sous la chaleur. Idéal pour l’eau, les boissons et le petit-déj."}
+ {n:"Supermercado Sant Jaume",cui:"Top-ups · corner shop",r:3.8,c:283,lat:39.9030,lng:4.0733,pid:"ChIJ-4GIR6yKlRIRpB9eQiWWEr4",dist:"4 min walk",tags:["🥖 Top-ups"],hours:"8:00–21:00 · daily",d:"The closest one, right around the corner. Perfect for bread, aperitivo and forgotten items. A bit pricey: keep it for top-ups."},
+ {n:"La Masia · centre Son Bou",cui:"Resort grocery",r:3.8,c:108,lat:39.8994,lng:4.0784,pid:"ChIJRzNcILCKlRIRrz1H7FpFWKs",dist:"3 min drive · 10 min walk",tags:["🛟 Beach/kids"],hours:"8:00–21:00 · daily",d:"At the Son Bou shopping centre: fruit & veg, pastries, floaties and beach toys for the kids."},
+ {n:"Binipreu · Alaior",cui:"Supermarket",r:4.1,c:558,lat:39.9365,lng:4.1445,pid:"ChIJQZblRc4gvhIRIjY9jlFr5PA",dist:"~13 min drive",tags:["🐟 Fishmonger","☕ Café"],hours:"8:30–21:00 (Sun 9:00–14:00)",d:"A full supermarket with a great fish counter and a café next door. Good for a mid-week restock."},
+ {n:"Coop. San Crispín · Alaior",cui:"Local cooperative",r:4.2,c:480,lat:39.9342,lng:4.1472,pid:"ChIJC9oxhs4gvhIR28Yoqf0r3QU",dist:"~13 min drive",tags:["🥩 Butcher","🚚 Delivery"],hours:"8:30–21:00 · <b>closed Sun</b>",d:"A quality cooperative (meat, local produce). Delivers to Son Bou — handy for the big shop."},
+ {n:"Mercadona · Maó",cui:"Big shop",r:4.1,c:3009,lat:39.8845,lng:4.2366,pid:"ChIJp8mO6-CHlRIRjAshpodtwWs",dist:"~22 min drive",tags:["💶 Big shop","💶 Cheaper"],hours:"9:00–22:00 (Sun 9:00–15:00)",d:"The big weekly shop, much cheaper. Combine with the Maó day (D6). Avoid mid-afternoon in August."},
+ {n:"Lidl · Maó",cui:"Discount",r:4.3,c:2594,lat:39.8862,lng:4.2496,pid:"ChIJzU-ePeiHlRIRox5P9CgvwI0",dist:"~24 min drive",tags:["💶 Cheaper","🅿️ Covered parking"],hours:"9:00–22:00 · daily",d:"The budget option in Maó, with covered parking that’s a blessing in the heat. Ideal for water, drinks and breakfast."}
 ];
 const IMG="https://commons.wikimedia.org/wiki/Special:FilePath/";
 const BEACHES=[
- {n:"Platja de Son Bou",cui:"Plage familiale",r:4.6,c:764,lat:39.9017,lng:4.0717,pid:"ChIJxz-QBa2KlRIR7oFRTZZp_Ak",dist:"5 min à pied",tags:["🚼 Poussette OK","👶 Idéale enfants"],hours:"Immense (2,5 km) · eau très peu profonde",scene:"beach",img:IMG+"Son%20Bou%20Playa%20y%20Barranque%20Menorca.jpg?width=800",d:"La plage au bout de la rue : sable fin et eau qui reste basse très loin — parfait pour Apolline et les garçons. Peu d’ombre : parasol et venir tôt. Transats et buvettes."},
- {n:"Cala Galdana",cui:"Crique abritée",r:4.5,c:2000,lat:39.9389,lng:3.9640,pid:"ChIJtySQnL4dvhIRQJ5Xf3GvAgo",dist:"~25 min en voiture",tags:["🚼 Poussette OK","🏖️ Services"],hours:"Grande crique abritée",scene:"cove",img:IMG+"Platja%20de%20Cala%20Galdana.jpg?width=800",d:"La grande crique familiale : abritée, avec services, pédalos et restos. Poussette possible sur le front de mer. Base idéale pour rejoindre Macarella à pied."},
- {n:"Cala Macarella",cui:"Crique · carte postale",r:4.3,c:1838,lat:39.9386,lng:3.9372,pid:"ChIJLYyNfBIdvhIRMw36JZo-vBE",dist:"~30 min voiture + 35 min de marche",tags:["🎒 Porte-bébé","📸 Carte postale"],hours:"Accès à pied depuis Galdana (sentier) ou bus",scene:"cove",img:IMG+"Cala%20Macarella%20(Menorca).jpg?width=800",d:"L’image de carte postale de Minorque. Sentier ombragé depuis Galdana : porte-bébé indispensable pour Apolline. Buvette sur place, prévoir de l’eau."},
- {n:"Cala en Turqueta",cui:"Crique turquoise",r:4.5,c:4183,lat:39.9324,lng:3.9148,pid:"ChIJ2Ry07kgdvhIR1A9CU5yhBZY",dist:"~40 min en voiture",tags:["🎒 Porte-bébé","⏰ Venir tôt"],hours:"Parking souvent plein après 9h30 en août",scene:"cove",img:IMG+"Cala%20Turqueta%20-%20Menorca.jpg?width=800",d:"Eau turquoise irréelle, 10 min de marche depuis le parking. Arriver avant 9h30 (parking limité). Porte-bébé pour la petite."}
+ {n:"Platja de Son Bou",cui:"Family beach",r:4.6,c:764,lat:39.9017,lng:4.0717,pid:"ChIJxz-QBa2KlRIR7oFRTZZp_Ak",dist:"5 min walk",tags:["🚼 Stroller OK","👶 Great for kids"],hours:"Huge (2.5 km) · very shallow water",scene:"beach",img:IMG+"Son%20Bou%20Playa%20y%20Barranque%20Menorca.jpg?width=800",d:"The beach at the end of the street: fine sand and water that stays shallow far out — perfect for Apolline and the boys. Little shade: bring a parasol and come early. Sunbeds and kiosks."},
+ {n:"Cala Galdana",cui:"Sheltered cove",r:4.5,c:2000,lat:39.9389,lng:3.9640,pid:"ChIJtySQnL4dvhIRQJ5Xf3GvAgo",dist:"~25 min drive",tags:["🚼 Stroller OK","🏖️ Facilities"],hours:"Large sheltered cove",scene:"cove",img:IMG+"Platja%20de%20Cala%20Galdana.jpg?width=800",d:"The big family cove: sheltered, with facilities, pedalos and restaurants. Stroller works on the seafront. The ideal base for walking to Macarella."},
+ {n:"Cala Macarella",cui:"Cove · postcard",r:4.3,c:1838,lat:39.9386,lng:3.9372,pid:"ChIJLYyNfBIdvhIRMw36JZo-vBE",dist:"~30 min drive + 35 min walk",tags:["🎒 Baby carrier","📸 Postcard"],hours:"On foot from Galdana (trail) or by bus",scene:"cove",img:IMG+"Cala%20Macarella%20(Menorca).jpg?width=800",d:"Menorca’s postcard image. Shaded trail from Galdana: baby carrier essential for Apolline. Kiosk on site, bring water."},
+ {n:"Cala en Turqueta",cui:"Turquoise cove",r:4.5,c:4183,lat:39.9324,lng:3.9148,pid:"ChIJ2Ry07kgdvhIR1A9CU5yhBZY",dist:"~40 min drive",tags:["🎒 Baby carrier","⏰ Come early"],hours:"Car park often full after 9:30 in August",scene:"cove",img:IMG+"Cala%20Turqueta%20-%20Menorca.jpg?width=800",d:"Unreal turquoise water, a 10-min walk from the car park. Arrive before 9:30 (limited parking). Baby carrier for the little one."}
 ];
 const SITES=[
- {n:"Torre d’en Galmés",cui:"Site talayotique",r:4.6,c:1959,lat:39.9025,lng:4.1142,pid:"ChIJLbOW_nuKlRIRpEbctz6mZOE",dist:"~8 min en voiture",tags:["🎒 Porte-bébé","🆓 Gratuit le lundi"],hours:"9h–20h30 (lun. 9h–15h30)",scene:"stone",img:IMG+"Torre%20d%27en%20Galm%C3%A9s%20House%20with%20Cave.jpg?width=800",d:"Le grand site talayotique (préhistorique) à deux pas. Visite d’≈1 h, à faire tôt (peu d’ombre). Terrain irrégulier : porte-bébé conseillé. Gratuit le lundi."},
- {n:"Ciutadella · vieille ville",cui:"Ville & port",r:4.7,c:0,lat:40.0016,lng:3.8398,pid:"ChIJQQ8i3hEFvhIRSHFBysxv_So",dist:"~45 min en voiture",tags:["🚼 Poussette OK","🍦 Glace Deliri"],hours:"Ruelles ombragées · port",scene:"harbour",img:IMG+"Ciutadella%20Port%20Ajuntament.JPG?width=800",d:"La plus belle ville de l’île : ruelles blanches à l’ombre, port, cathédrale, marché. Glacier Gelateria Deliri (4,9★) pour les enfants. Poussette possible (pavés)."},
- {n:"Fornells",cui:"Village de pêcheurs",r:4.6,c:0,lat:40.0561,lng:4.1311,pid:"ChIJJwM9qUAjvhIRSEMlb__uLuo",dist:"~30 min en voiture",tags:["🚼 Poussette OK","🦞 Poisson"],hours:"Village de pêcheurs · baie calme",scene:"village",d:"Village blanc au bord d’une grande baie très calme et peu profonde — idéale pour barboter avec les enfants. Le paradis du poisson et de la caldereta."},
- {n:"Binibeca Vell",cui:"Village blanc",r:4.5,c:0,lat:39.8203,lng:4.2449,pid:"ChIJ53olTf6FlRIRuV1xo_WeS9o",dist:"~30 min en voiture",tags:["🎒 Porte-bébé","📸 Village blanc"],hours:"Ruelles blanches labyrinthiques",scene:"village",img:IMG+"Binibeca%20Vell%2C%20Menorca.jpg?width=800",d:"Le village blanc immaculé, dédale de ruelles éclatantes. Superbe en fin d’après-midi. Ruelles étroites : porte-bébé plus pratique que la poussette."}
+ {n:"Torre d’en Galmés",cui:"Talayotic site",r:4.6,c:1959,lat:39.9025,lng:4.1142,pid:"ChIJLbOW_nuKlRIRpEbctz6mZOE",dist:"~8 min drive",tags:["🎒 Baby carrier","🆓 Free on Mondays"],hours:"9:00–20:30 (Mon 9:00–15:30)",scene:"stone",img:IMG+"Torre%20d%27en%20Galm%C3%A9s%20House%20with%20Cave.jpg?width=800",d:"The great Talayotic (prehistoric) site just up the road. About a 1-hour visit, best early (little shade). Uneven ground: baby carrier advised. Free on Mondays."},
+ {n:"Ciutadella · vieille ville",cui:"Town & harbour",r:4.7,c:0,lat:40.0016,lng:3.8398,pid:"ChIJQQ8i3hEFvhIRSHFBysxv_So",dist:"~45 min drive",tags:["🚼 Stroller OK","🍦 Deliri ice cream"],hours:"Shaded lanes · harbour",scene:"harbour",img:IMG+"Ciutadella%20Port%20Ajuntament.JPG?width=800",d:"The island’s most beautiful town: shaded white lanes, the harbour, cathedral, market. Gelateria Deliri (4.9★) for the kids. Stroller possible (cobbles)."},
+ {n:"Fornells",cui:"Fishing village",r:4.6,c:0,lat:40.0561,lng:4.1311,pid:"ChIJJwM9qUAjvhIRSEMlb__uLuo",dist:"~30 min drive",tags:["🚼 Stroller OK","🦞 Fish"],hours:"Fishing village · calm bay",scene:"village",d:"A white village on a large, very calm and shallow bay — ideal for paddling with the kids. Fish and caldereta heaven."},
+ {n:"Binibeca Vell",cui:"White village",r:4.5,c:0,lat:39.8203,lng:4.2449,pid:"ChIJ53olTf6FlRIRuV1xo_WeS9o",dist:"~30 min drive",tags:["🎒 Baby carrier","📸 White village"],hours:"Labyrinth of white lanes",scene:"village",img:IMG+"Binibeca%20Vell%2C%20Menorca.jpg?width=800",d:"The immaculate white village, a maze of dazzling lanes. Gorgeous in the late afternoon. Narrow lanes: baby carrier beats the stroller."}
 ];
 
 /* ---- PROGRAMME ---- */
 const DAYS=[
- {id:"j1",date:"Vendredi 25 juillet",title:"Arrivée & premier bain",badges:["🛬 Jour d’arrivée","🔥 BBQ villa"],slots:[
-   {w:"13h–15h",s:"Route & installation",t:"Arrivée",p:"Atterrissage 12h55, récupération des 3 voitures, ~25 min jusqu’à la villa. On pose les valises, on souffle.",links:[["Itinéraire aéroport → villa","https://www.google.com/maps/dir/?api=1&origin=Aeroport%20de%20Menorca%20MAH&destination="+ORIGIN+"&travelmode=driving"]]},
-   {w:"16h",s:"Course de dépannage",t:"Sant Jaume",p:"Pain, eau, apéro et petit-déj de demain au marché du coin, à 4 min à pied.",links:[["Itinéraire",dir(39.9030,4.0733,"ChIJ-4GIR6yKlRIRpB9eQiWWEr4")]]},
-   {w:"18h",s:"Premier bain",t:"Plage de Son Bou",p:"Descente à la plage quand ça se rafraîchit, à 5 min à pied. Les enfants se dégourdissent.",links:[["Voir la plage",place(39.9017,4.0717,"ChIJxz-QBa2KlRIR7oFRTZZp_Ak")]]},
-   {w:"20h",s:"BBQ d’ouverture",t:"🍗 Poulet à la villa",p:"Barbecue tout simple : poulet mariné citron-herbes et brochettes de légumes. Coucher tôt.",links:[]}
+ {id:"j1",date:"Friday, July 25",title:"Arrival & first swim",badges:["🛬 Arrival day","🔥 Villa BBQ"],slots:[
+   {w:"1–3pm",s:"Drive & settle in",t:"Arrival",p:"Landing 12:55, pick up the 3 cars, ~25 min to the villa. Drop the bags, breathe.",links:[["Airport → villa directions","https://www.google.com/maps/dir/?api=1&origin=Aeroport%20de%20Menorca%20MAH&destination="+ORIGIN+"&travelmode=driving"]]},
+   {w:"4pm",s:"Quick shop",t:"Sant Jaume",p:"Bread, water, aperitivo and tomorrow’s breakfast at the corner shop, 4 min on foot.",links:[["Directions",dir(39.9030,4.0733,"ChIJ-4GIR6yKlRIRpB9eQiWWEr4")]]},
+   {w:"6pm",s:"First swim",t:"Son Bou beach",p:"Down to the beach once it cools off, 5 min on foot. The kids stretch their legs.",links:[["See the beach",place(39.9017,4.0717,"ChIJxz-QBa2KlRIR7oFRTZZp_Ak")]]},
+   {w:"8pm",s:"Opening BBQ",t:"🍗 Chicken at the villa",p:"Simple barbecue: lemon-herb chicken and vegetable skewers. Early night.",links:[]}
  ]},
- {id:"j2",date:"Samedi 26 juillet",title:"Son Bou, la plage au bout de la rue",badges:["🚼 Poussette OK","🐟 Dîner poisson"],slots:[
-   {w:"9h–13h",s:"Plage en famille",t:"Platja de Son Bou",p:"Matinée à la plage avant la grosse chaleur : eau peu profonde parfaite pour Apolline et les garçons. Parasol obligatoire.",links:[["Voir la plage",place(39.9017,4.0717,"ChIJxz-QBa2KlRIR7oFRTZZp_Ak")]]},
-   {w:"13h–17h",s:"Temps calme",t:"🏊 Piscine de la villa",p:"Déjeuner à la villa, sieste d’Apolline, puis piscine privée pour les garçons pendant que les parents se relaient à l’ombre.",links:[]},
-   {w:"20h",s:"Dîner",t:"🐟 Casa Andrés",p:"La valeur sûre de Son Bou, à pied. Poissons du jour et lapin local. Pensez à réserver.",links:[["En savoir plus",place(39.8992,4.0778,"ChIJ3afIKLCKlRIR9atQYmpzIW4")],["Itinéraire",dir(39.8992,4.0778,"ChIJ3afIKLCKlRIR9atQYmpzIW4")]]}
+ {id:"j2",date:"Saturday, July 26",title:"Son Bou, the beach down the road",badges:["🚼 Stroller OK","🐟 Fish dinner"],slots:[
+   {w:"9am–1pm",s:"Family beach time",t:"Platja de Son Bou",p:"Beach morning before the big heat: shallow water perfect for Apolline and the boys. Parasol essential.",links:[["See the beach",place(39.9017,4.0717,"ChIJxz-QBa2KlRIR7oFRTZZp_Ak")]]},
+   {w:"1–5pm",s:"Quiet time",t:"🏊 Villa pool",p:"Lunch at the villa, Apolline’s nap, then the private pool for the boys while parents take turns in the shade.",links:[]},
+   {w:"8pm",s:"Dinner",t:"🐟 Casa Andrés",p:"Son Bou’s reliable favourite, on foot. Catch of the day and local rabbit. Book ahead.",links:[["Learn more",place(39.8992,4.0778,"ChIJ3afIKLCKlRIR9atQYmpzIW4")],["Directions",dir(39.8992,4.0778,"ChIJ3afIKLCKlRIR9atQYmpzIW4")]]}
  ]},
- {id:"j3",date:"Dimanche 27 juillet",title:"Les calas de carte postale",badges:["🎒 Porte-bébé","🔥 BBQ poisson"],slots:[
-   {w:"8h30",s:"Départ tôt",t:"Cala Galdana",p:"On part avant la chaleur et les parkings pleins (~25 min). Crique abritée, services, pédalos — poussette OK sur le front.",links:[["Itinéraire",dir(39.9389,3.9640,"ChIJtySQnL4dvhIRQJ5Xf3GvAgo")]]},
-   {w:"10h30",s:"Balade (optionnelle)",t:"Cala Macarella",p:"Pour les motivés : 35 min de sentier ombragé depuis Galdana jusqu’à la plus belle crique. Porte-bébé pour Apolline.",links:[["Voir Macarella",place(39.9386,3.9372,"ChIJLYyNfBIdvhIRMw36JZo-vBE")]]},
-   {w:"13h–17h",s:"Temps calme",t:"Retour & sieste",p:"Déjeuner, sieste et repos à la villa aux heures chaudes.",links:[]},
-   {w:"20h",s:"Dîner",t:"🔥 BBQ poisson",p:"Soir tranquille à la maison : dorade ou bar entier au gros sel et fenouil, légumes grillés.",links:[]}
+ {id:"j3",date:"Sunday, July 27",title:"The postcard calas",badges:["🎒 Baby carrier","🔥 Fish BBQ"],slots:[
+   {w:"8:30am",s:"Early start",t:"Cala Galdana",p:"Leave before the heat and the full car parks (~25 min). Sheltered cove, services, pedalos — stroller OK on the front.",links:[["Directions",dir(39.9389,3.9640,"ChIJtySQnL4dvhIRQJ5Xf3GvAgo")]]},
+   {w:"10:30am",s:"Walk (optional)",t:"Cala Macarella",p:"For the keen: a 35-min shaded trail from Galdana to the most beautiful cove. Baby carrier for Apolline.",links:[["See Macarella",place(39.9386,3.9372,"ChIJLYyNfBIdvhIRMw36JZo-vBE")]]},
+   {w:"1–5pm",s:"Quiet time",t:"Back & nap",p:"Lunch, nap and rest at the villa through the hot hours.",links:[]},
+   {w:"8pm",s:"Dinner",t:"🔥 Fish BBQ",p:"Easy night at home: whole sea bream or bass in rock salt and fennel, grilled vegetables.",links:[]}
  ]},
- {id:"j4",date:"Lundi 28 juillet",title:"Préhistoire au frais & détente",badges:["🆓 Gratuit ce jour","🐟 Dîner poisson"],slots:[
-   {w:"9h",s:"Culture le matin",t:"Torre d’en Galmés",p:"Le grand site talayotique à ~8 min, gratuit le lundi. Visite d’1 h à faire tôt (peu d’ombre). Porte-bébé conseillé.",links:[["En savoir plus",place(39.9025,4.1142,"ChIJLbOW_nuKlRIRpEbctz6mZOE")],["Itinéraire",dir(39.9025,4.1142,"ChIJLbOW_nuKlRIRpEbctz6mZOE")]]},
-   {w:"13h–17h",s:"Temps calme",t:"🏊 Piscine & sieste",p:"Grosse chaleur : on se pose à la piscine de la villa. Petit bain de fin d’après-midi à Son Bou si envie.",links:[]},
-   {w:"20h",s:"Dîner",t:"🐟 Alessandro’s",p:"Italien familial à pied (Casa Andrés fermé le lundi). Pâtes maison, poissons, pizzas — rapide et efficace avec les enfants.",links:[["En savoir plus",place(39.8999,4.0768,"ChIJqfn1OrCKlRIRFJSZvJBBVxA")],["Itinéraire",dir(39.8999,4.0768,"ChIJqfn1OrCKlRIRFJSZvJBBVxA")]]}
+ {id:"j4",date:"Monday, July 28",title:"Prehistory while it’s cool & downtime",badges:["🆓 Free today","🐟 Fish dinner"],slots:[
+   {w:"9am",s:"Morning culture",t:"Torre d’en Galmés",p:"The great Talayotic site ~8 min away, free on Mondays. A 1-hour visit, best done early (little shade). Baby carrier advised.",links:[["Learn more",place(39.9025,4.1142,"ChIJLbOW_nuKlRIRpEbctz6mZOE")],["Directions",dir(39.9025,4.1142,"ChIJLbOW_nuKlRIRpEbctz6mZOE")]]},
+   {w:"1–5pm",s:"Quiet time",t:"🏊 Pool & nap",p:"Peak heat: we settle by the villa pool. Late-afternoon dip at Son Bou if the mood strikes.",links:[]},
+   {w:"8pm",s:"Dinner",t:"🐟 Alessandro’s",p:"Family-friendly Italian on foot (Casa Andrés is closed on Mondays). Homemade pasta, fish, pizzas — quick and easy with kids.",links:[["Learn more",place(39.8999,4.0768,"ChIJqfn1OrCKlRIRFJSZvJBBVxA")],["Directions",dir(39.8999,4.0768,"ChIJqfn1OrCKlRIRFJSZvJBBVxA")]]}
  ]},
- {id:"j5",date:"Mardi 29 juillet",title:"Ciutadella, la vieille ville",badges:["🚼 Poussette OK","🍦 Glace culte"],slots:[
-   {w:"9h",s:"Départ",t:"Cap à l’ouest",p:"~45 min de route pour la plus belle ville de l’île. Ruelles blanches à l’ombre, port, cathédrale, marché.",links:[["Itinéraire",dir(40.0016,3.8398,"ChIJQQ8i3hEFvhIRSHFBysxv_So")]]},
-   {w:"13h",s:"Déjeuner",t:"🍗 Molí des Comte",p:"Grillades et paella généreuses, cadre superbe, familial. Réserver conseillé.",links:[["En savoir plus",place(40.0028,3.8412,"ChIJHxTtywsEvhIRuRMetTHu-IA")]]},
-   {w:"15h",s:"Douceur",t:"Gelateria Deliri",p:"La meilleure glace de l’île (4,9★) avant de rentrer. Les enfants adorent.",links:[["Voir",place(40.0016,3.8398,"ChIJQQ8i3hEFvhIRSHFBysxv_So")]]},
-   {w:"20h",s:"Dîner",t:"🔥 BBQ poulet",p:"Retour tranquille, soir léger à la villa après la route.",links:[]}
+ {id:"j5",date:"Tuesday, July 29",title:"Ciutadella, the old town",badges:["🚼 Stroller OK","🍦 Cult ice cream"],slots:[
+   {w:"9am",s:"Departure",t:"Heading west",p:"~45 min drive to the island’s most beautiful town. Shaded white lanes, the harbour, cathedral, market.",links:[["Directions",dir(40.0016,3.8398,"ChIJQQ8i3hEFvhIRSHFBysxv_So")]]},
+   {w:"1pm",s:"Lunch",t:"🍗 Molí des Comte",p:"Generous grills and paella in a gorgeous setting, family-friendly. Booking advised.",links:[["Learn more",place(40.0028,3.8412,"ChIJHxTtywsEvhIRuRMetTHu-IA")]]},
+   {w:"3pm",s:"A treat",t:"Gelateria Deliri",p:"The island’s best ice cream (4.9★) before heading back. The kids love it.",links:[["See",place(40.0016,3.8398,"ChIJQQ8i3hEFvhIRSHFBysxv_So")]]},
+   {w:"8pm",s:"Dinner",t:"🔥 Chicken BBQ",p:"Easy drive home, light evening at the villa after the road.",links:[]}
  ]},
- {id:"j6",date:"Mercredi 30 juillet",title:"Maó, village blanc & grosse course",badges:["🛒 Grande course","🍗 Dîner poulet"],slots:[
-   {w:"9h30",s:"Cap à l’est",t:"Maó (Mahón)",p:"~25 min : le port, les fromageries, la gin locale. Balade tranquille en matinée.",links:[["Itinéraire Maó",dir(39.8880,4.2600)]]},
-   {w:"12h",s:"Intendance",t:"🛒 Mercadona / Lidl",p:"La grande course de la semaine, bien moins chère, avant de rentrer. On charge les coffres.",links:[["Mercadona",dir(39.8845,4.2366,"ChIJp8mO6-CHlRIRjAshpodtwWs")],["Lidl",dir(39.8862,4.2496,"ChIJzU-ePeiHlRIRox5P9CgvwI0")]]},
-   {w:"17h30",s:"Carte postale",t:"Binibeca Vell",p:"Le village blanc immaculé en fin d’après-midi. Ruelles étroites : porte-bébé plus pratique.",links:[["Voir Binibeca",place(39.8203,4.2449,"ChIJ53olTf6FlRIRuV1xo_WeS9o")]]},
-   {w:"20h30",s:"Dîner",t:"🍗 The Cardamom",p:"De retour à Son Bou (à pied) : le meilleur noté du coin, poulet et agneau parfumés.",links:[["En savoir plus",place(39.8996,4.0778,"ChIJY7wZHACLlRIRQOUV9TkgTDI")],["Itinéraire",dir(39.8996,4.0778,"ChIJY7wZHACLlRIRQOUV9TkgTDI")]]}
+ {id:"j6",date:"Wednesday, July 30",title:"Maó, white village & big shop",badges:["🛒 Big shop","🍗 Chicken dinner"],slots:[
+   {w:"9:30am",s:"Heading east",t:"Maó (Mahón)",p:"~25 min: the harbour, cheese shops, the local gin. A gentle morning stroll.",links:[["Maó directions",dir(39.8880,4.2600)]]},
+   {w:"12pm",s:"Supplies",t:"🛒 Mercadona / Lidl",p:"The big weekly shop, far cheaper, before heading back. Load up the boots.",links:[["Mercadona",dir(39.8845,4.2366,"ChIJp8mO6-CHlRIRjAshpodtwWs")],["Lidl",dir(39.8862,4.2496,"ChIJzU-ePeiHlRIRox5P9CgvwI0")]]},
+   {w:"5:30pm",s:"Postcard",t:"Binibeca Vell",p:"The immaculate white village in the late afternoon. Narrow lanes: baby carrier works better.",links:[["See Binibeca",place(39.8203,4.2449,"ChIJ53olTf6FlRIRuV1xo_WeS9o")]]},
+   {w:"8:30pm",s:"Dinner",t:"🍗 The Cardamom",p:"Back in Son Bou (on foot): the best-rated place around, fragrant chicken and lamb.",links:[["Learn more",place(39.8996,4.0778,"ChIJY7wZHACLlRIRQOUV9TkgTDI")],["Directions",dir(39.8996,4.0778,"ChIJY7wZHACLlRIRQOUV9TkgTDI")]]}
  ]},
- {id:"j7",date:"Jeudi 31 juillet",title:"Turquoise & dîner d’adieu",badges:["🎒 Porte-bébé","✨ Coup de cœur"],slots:[
-   {w:"8h",s:"Au choix — le vif",t:"Cala en Turqueta",p:"Pour les lève-tôt : l’eau turquoise mythique (~40 min, parking avant 9h30). Porte-bébé pour la petite.",links:[["Itinéraire",dir(39.9324,3.9148,"ChIJ2Ry07kgdvhIR1A9CU5yhBZY")]],opt:"Option cool : journée détente à la villa (piscine) + plage de Son Bou, sans voiture."},
-   {w:"13h–17h",s:"Temps calme",t:"🏊 Repos",p:"Dernier après-midi tranquille : sieste, piscine de la villa, on fait les valises l’esprit léger.",links:[]},
-   {w:"20h",s:"Dîner d’adieu",t:"✨ Es Festuc · Alaior",p:"On se fait plaisir pour la dernière : tapas créatives, jolie carte des vins (~15 min). Réserver.",links:[["En savoir plus",place(39.9342,4.1388,"ChIJVReIy8UgvhIRVbLXmtZPSbs")],["Itinéraire",dir(39.9342,4.1388,"ChIJVReIy8UgvhIRVbLXmtZPSbs")]],opt:"Alternative poisson : Sa Taula à Fornells, terrasse sur les toits."}
+ {id:"j7",date:"Thursday, July 31",title:"Turquoise & farewell dinner",badges:["🎒 Baby carrier","✨ Favourite"],slots:[
+   {w:"8am",s:"Your pick — the action",t:"Cala en Turqueta",p:"For the early birds: the legendary turquoise water (~40 min, car park before 9:30). Baby carrier for the little one.",links:[["Directions",dir(39.9324,3.9148,"ChIJ2Ry07kgdvhIR1A9CU5yhBZY")]],opt:"Chill option: a relaxed villa day (pool) + Son Bou beach, no driving."},
+   {w:"1–5pm",s:"Quiet time",t:"🏊 Rest",p:"One last quiet afternoon: nap, villa pool, and pack the bags with a light heart.",links:[]},
+   {w:"8pm",s:"Farewell dinner",t:"✨ Es Festuc · Alaior",p:"A treat for the last night: creative tapas, lovely wine list (~15 min). Book ahead.",links:[["Learn more",place(39.9342,4.1388,"ChIJVReIy8UgvhIRVbLXmtZPSbs")],["Directions",dir(39.9342,4.1388,"ChIJVReIy8UgvhIRVbLXmtZPSbs")]],opt:"Fish alternative: Sa Taula in Fornells, rooftop terrace."}
  ]},
- {id:"j8",date:"Vendredi 1er août",title:"Dernier bain & départ",badges:["🛫 Jour de départ","🚼 Poussette OK"],slots:[
-   {w:"8h30",s:"Un dernier plongeon",t:"Son Bou",p:"Bain matinal à 5 min à pied pendant que les cafés coulent.",links:[["Voir la plage",place(39.9017,4.0717,"ChIJxz-QBa2KlRIR7oFRTZZp_Ak")]]},
-   {w:"10h30",s:"On boucle",t:"Brunch & ménage",p:"Brunch avec les restes du barbecue, valises, ménage, restitution de la villa.",links:[]},
-   {w:"12h40",s:"Route aéroport",t:"Décollage 14h40",p:"~25 min jusqu’à Maó pour être à l’aéroport ~2 h avant. Fes-ho bé !",links:[["Itinéraire villa → aéroport","https://www.google.com/maps/dir/?api=1&origin="+ORIGIN+"&destination=Aeroport%20de%20Menorca%20MAH&travelmode=driving"]]}
+ {id:"j8",date:"Friday, August 1",title:"Last swim & departure",badges:["🛫 Departure day","🚼 Stroller OK"],slots:[
+   {w:"8:30am",s:"One last dip",t:"Son Bou",p:"Morning swim 5 min away while the coffee brews.",links:[["See the beach",place(39.9017,4.0717,"ChIJxz-QBa2KlRIR7oFRTZZp_Ak")]]},
+   {w:"10:30am",s:"Wrap up",t:"Brunch & tidy-up",p:"Brunch with the barbecue leftovers, bags, tidy-up, villa hand-over.",links:[]},
+   {w:"12:40pm",s:"Airport run",t:"Take-off 14:40",p:"~25 min to Maó to reach the airport ~2 h ahead. Fes-ho bé!",links:[["Villa → airport directions","https://www.google.com/maps/dir/?api=1&origin="+ORIGIN+"&destination=Aeroport%20de%20Menorca%20MAH&travelmode=driving"]]}
  ]}
 ];
 
@@ -812,7 +811,7 @@ async function saveKey(k,val){
     if(CLOUD){await window.storage.set(k,JSON.stringify(val),true);}
     else{localStorage.setItem(k,JSON.stringify(val));}
     return true;
-  }catch(e){toast("Sauvegarde impossible");return false;}
+  }catch(e){toast("Could not save");return false;}
 }
 
 /* ================= RENDU ================= */
@@ -825,8 +824,8 @@ function cardResto(x){
     <p class="desc">${x.d}</p>
     <div class="hours">🕑 ${x.hours}</div>
     <div class="foot">
-      <a class="btn btn-map" target="_blank" href="${place(x.lat,x.lng,x.pid)}">ⓘ En savoir plus</a>
-      <a class="btn btn-ghost" target="_blank" href="${dir(x.lat,x.lng,x.pid)}">🗺️ Itinéraire</a>
+      <a class="btn btn-map" target="_blank" href="${place(x.lat,x.lng,x.pid)}">ⓘ Learn more</a>
+      <a class="btn btn-ghost" target="_blank" href="${dir(x.lat,x.lng,x.pid)}">🗺️ Directions</a>
     </div></div>`;
 }
 document.getElementById('resto-sonbou').innerHTML=RESTOS_SONBOU.map(cardResto).join('');
@@ -860,14 +859,14 @@ async function renderDays(){
       <div class="day-body">${slots}</div>
       <div class="feedback">
         <div class="vote-row">
-          <div class="vote up ${fb.up?'':''}" onclick="vote('${d.id}','up')">👍 J’adore <span class="n" id="up-${d.id}">${fb.up||0}</span></div>
-          <div class="vote adapt" onclick="vote('${d.id}','adapt')">✳️ À adapter <span class="n" id="adapt-${d.id}">${fb.adapt||0}</span></div>
+          <div class="vote up ${fb.up?'':''}" onclick="vote('${d.id}','up')">👍 Love it <span class="n" id="up-${d.id}">${fb.up||0}</span></div>
+          <div class="vote adapt" onclick="vote('${d.id}','adapt')">✳️ Needs tweaking <span class="n" id="adapt-${d.id}">${fb.adapt||0}</span></div>
         </div>
         <div class="cmt-list" id="cmts-${d.id}">${cmts}</div>
         <div class="cmt-add">
-          <input class="name" id="cn-${d.id}" placeholder="Prénom">
-          <input class="msg" id="cm-${d.id}" placeholder="Un mot sur cette journée…">
-          <button class="btn btn-coral" onclick="addComment('${d.id}')">Envoyer</button>
+          <input class="name" id="cn-${d.id}" placeholder="First name">
+          <input class="msg" id="cm-${d.id}" placeholder="A word about this day…">
+          <button class="btn btn-coral" onclick="addComment('${d.id}')">Send</button>
         </div>
       </div>
     </article>`;
@@ -880,16 +879,16 @@ async function vote(id,type){
   DAYDATA[id][type]=(DAYDATA[id][type]||0)+1;
   await saveKey('menorca:days',DAYDATA);
   document.getElementById(type+'-'+id).textContent=DAYDATA[id][type];
-  toast(type==='up'?"👍 Vote enregistré":"✳️ Noté à adapter");
+  toast(type==='up'?"👍 Vote saved":"✳️ Marked for tweaking");
 }
 async function addComment(id){
   const nm=document.getElementById('cn-'+id),msg=document.getElementById('cm-'+id);
   if(!msg.value.trim())return;
   DAYDATA=await loadKey('menorca:days',{});
   DAYDATA[id]=DAYDATA[id]||{up:0,adapt:0,comments:[]};
-  DAYDATA[id].comments.push({id:'c'+Date.now(),name:nm.value.trim()||'Anonyme',text:msg.value.trim(),when:niceDate()});
+  DAYDATA[id].comments.push({id:'c'+Date.now(),name:nm.value.trim()||'Anonymous',text:msg.value.trim(),when:niceDate()});
   await saveKey('menorca:days',DAYDATA);
-  nm.value='';msg.value='';renderDays();toast("💬 Commentaire ajouté");
+  nm.value='';msg.value='';renderDays();toast("💬 Comment added");
 }
 async function delComment(day,cid){
   DAYDATA=await loadKey('menorca:days',{});
@@ -909,7 +908,7 @@ async function renderBudget(){
   // list
   document.getElementById('expList').innerHTML=BUD.expenses.slice().reverse().map(e=>`
     <div class="exp"><div><div class="lbl">${esc(e.label)}</div><div class="sub">${e.cat} · ${esc(BUD.names[e.payer]||'?')}</div></div>
-    <div style="display:flex;align-items:center;gap:8px"><span class="amt">${e.amount.toFixed(2)} €</span><button class="x" onclick="delExpense('${e.id}')">✕</button></div></div>`).join('')||'<p class="tiny" style="color:rgba(234,246,243,.55)">Aucune dépense pour l’instant.</p>';
+    <div style="display:flex;align-items:center;gap:8px"><span class="amt">${e.amount.toFixed(2)} €</span><button class="x" onclick="delExpense('${e.id}')">✕</button></div></div>`).join('')||'<p class="tiny" style="color:rgba(234,246,243,.55)">No expenses yet.</p>';
   // totals
   const total=BUD.expenses.reduce((s,e)=>s+e.amount,0);
   const share=total/3;
@@ -931,20 +930,20 @@ async function renderBudget(){
     cred[ci].v-=m;deb[di].v-=m;
     if(cred[ci].v<0.01)ci++;if(deb[di].v<0.01)di++;
   }
-  document.getElementById('transfers').innerHTML=total>0?('<div style="margin-top:6px">💸 Remboursements :</div>'+(out.length?out.map(o=>'· '+o).join('<br>'):'Tout est équilibré ✓')):'';
+  document.getElementById('transfers').innerHTML=total>0?('<div style="margin-top:6px">💸 Settle up:</div>'+(out.length?out.map(o=>'· '+o).join('<br>'):'All square ✓')):'';
 }
 async function addExpense(){
   const label=document.getElementById('expLabel').value.trim();
   const amount=parseFloat(document.getElementById('expAmount').value);
   const payer=document.getElementById('expPayer').value;
   const cat=document.getElementById('expCat').value;
-  if(!label||!(amount>0)){toast("Indiquez un libellé et un montant");return;}
+  if(!label||!(amount>0)){toast("Please enter a label and an amount");return;}
   BUD=await loadKey('menorca:budget',DEFBUD);
   BUD.expenses=BUD.expenses||[];
   BUD.expenses.push({id:'e'+Date.now(),label,amount,payer,cat});
   await saveKey('menorca:budget',BUD);
   document.getElementById('expLabel').value='';document.getElementById('expAmount').value='';
-  renderBudget();toast("💶 Dépense ajoutée");
+  renderBudget();toast("💶 Expense added");
 }
 async function delExpense(id){
   BUD=await loadKey('menorca:budget',DEFBUD);
@@ -964,50 +963,50 @@ async function renderBoard(){
   document.getElementById('boardList').innerHTML=BOARD.slice().reverse().map(n=>`
     <div class="note"><button class="del" onclick="delNote('${n.id}')">✕</button>
     <div class="who">${esc(n.name)} <span>${n.when}</span></div><p>${esc(n.text)}</p></div>`).join('')
-    ||'<p class="tiny">Aucune idée pour l’instant — lancez-vous !</p>';
+    ||'<p class="tiny">No ideas yet — be the first!</p>';
 }
 async function addNote(){
   const nm=document.getElementById('boardName'),msg=document.getElementById('boardMsg');
   if(!msg.value.trim())return;
   BOARD=await loadKey('menorca:board',[]);
-  BOARD.push({id:'n'+Date.now(),name:nm.value.trim()||'Anonyme',text:msg.value.trim(),when:niceDate()});
-  await saveKey('menorca:board',BOARD);nm.value='';msg.value='';renderBoard();toast("✨ Idée publiée");
+  BOARD.push({id:'n'+Date.now(),name:nm.value.trim()||'Anonymous',text:msg.value.trim(),when:niceDate()});
+  await saveKey('menorca:board',BOARD);nm.value='';msg.value='';renderBoard();toast("✨ Idea posted");
 }
 async function delNote(id){BOARD=await loadKey('menorca:board',[]);BOARD=BOARD.filter(n=>n.id!==id);await saveKey('menorca:board',BOARD);renderBoard();}
 
 /* ---- utils ---- */
 function esc(s){return (s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
-function fmt(n){return (Math.round(n*100)/100).toLocaleString('fr-FR',{minimumFractionDigits:0,maximumFractionDigits:2})+' €';}
-function niceDate(){return new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});}
+function fmt(n){return (Math.round(n*100)/100).toLocaleString('en-GB',{minimumFractionDigits:0,maximumFractionDigits:2})+' €';}
+function niceDate(){return new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});}
 let tT;function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(tT);tT=setTimeout(()=>t.classList.remove('show'),2200);}
 async function exportSummary(){
   const d=await loadKey('menorca:days',{}),b=await loadKey('menorca:budget',DEFBUD),bo=await loadKey('menorca:board',[]);
-  let out="🏝️ MINORQUE 25/07–01/08 — récap du groupe\n\n";
+  let out="🏝️ MENORCA 25/07–01/08 — group recap\n\n";
   DAYS.forEach((day,i)=>{const f=d[day.id];if(f&&(f.up||f.adapt||(f.comments||[]).length)){out+=`J${i+1} ${day.title} — 👍${f.up||0} ✳️${f.adapt||0}\n`;(f.comments||[]).forEach(c=>out+=`   • ${c.name}: ${c.text}\n`);}});
   const total=(b.expenses||[]).reduce((s,e)=>s+e.amount,0);
-  out+=`\n💶 Budget commun : ${fmt(total)} (part/couple ${fmt(total/3)})\n`;
-  if(bo.length){out+="\n✨ Idées :\n";bo.forEach(n=>out+=`   • ${n.name}: ${n.text}\n`);}
-  try{await navigator.clipboard.writeText(out);toast("📋 Récap copié !");}catch(e){toast("Copie impossible");}
+  out+=`\n💶 Group budget: ${fmt(total)} (per couple ${fmt(total/3)})\n`;
+  if(bo.length){out+="\n✨ Ideas:\n";bo.forEach(n=>out+=`   • ${n.name}: ${n.text}\n`);}
+  try{await navigator.clipboard.writeText(out);toast("📋 Recap copied!");}catch(e){toast("Could not copy");}
 }
 
 /* ---- init + statut sync ---- */
 (function initSync(){
   const badge=document.getElementById('syncBadge'),label=document.getElementById('syncLabel'),text=document.getElementById('syncText'),foot=document.getElementById('footNote');
-  if(CLOUD){badge.classList.add('cloud');label.textContent="Mode partagé · synchronisé";text.innerHTML="Vos votes, commentaires et dépenses sont partagés avec tout le groupe et mis à jour en direct — une seule source pour les 10 voyageurs.";foot.textContent="Plateforme collaborative synchronisée · données partagées entre tous les voyageurs.";}
-  else{label.textContent="Mode local · cet appareil";text.innerHTML="Ici, vos saisies sont gardées sur <b>cet appareil</b>. Pour une source unique partagée par tout le groupe, ouvrez la plateforme via le <b>lien partagé</b> (et non le fichier téléchargé). Le bouton « Copier un récap » permet aussi de coller l’état dans la conversation du groupe.";foot.textContent="Astuce : partagez le lien de la plateforme pour que tout le monde voie la même chose en direct.";}
+  if(CLOUD){badge.classList.add('cloud');label.textContent="Shared mode · synced";text.innerHTML="Your votes, comments and expenses are shared with the whole group and updated live — one single source for all 10 travellers.";foot.textContent="Synced collaborative platform · data shared across all travellers.";}
+  else{label.textContent="Local mode · this device";text.innerHTML="Here, your entries stay on <b>this device</b>. For one shared source for the whole group, open the platform via the <b>shared link</b> (not the downloaded file). The “Copy a recap” button also lets you paste the current state into the group chat.";foot.textContent="Tip: share the platform link so everyone sees the same thing live.";}
 })();
 renderDays();renderBudget();renderBoard();
 
 /* ---- carte interactive ---- */
 function initMap(){
   const el=document.getElementById('map'); if(!el) return;
-  if(typeof L==='undefined'){el.outerHTML='<div class="map-fallback">🗺️ La carte interactive s’affiche dès l’ouverture dans un navigateur. Dans cet aperçu, les ressources externes (fonds de carte) peuvent être bloquées.</div>';return;}
+  if(typeof L==='undefined'){el.outerHTML='<div class="map-fallback">🗺️ The interactive map appears as soon as you open this in a browser. In this preview, external resources (map tiles) may be blocked.</div>';return;}
   const villa=[39.9035,4.0705];
   const map=L.map('map',{scrollWheelZoom:false,dragging:!L.Browser.mobile,tap:true}).setView([39.95,4.05],10);
   if(L.Browser.mobile){
     map.on('click',()=>{map.dragging.enable();});
     const hint=L.control({position:'topright'});
-    hint.onAdd=function(){const d=L.DomUtil.create('div');d.style.cssText='background:rgba(4,51,59,.85);color:#fff;padding:6px 10px;border-radius:8px;font-size:.72rem;font-weight:600';d.textContent='Touchez la carte pour la déplacer';return d;};
+    hint.onAdd=function(){const d=L.DomUtil.create('div');d.style.cssText='background:rgba(4,51,59,.85);color:#fff;padding:6px 10px;border-radius:8px;font-size:.72rem;font-weight:600';d.textContent='Tap the map to move it';return d;};
     hint.addTo(map);map.on('click',()=>{try{hint.remove();}catch(e){}});
   }
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap'}).addTo(map);
@@ -1015,7 +1014,7 @@ function initMap(){
   const pts=[];
   function add(x,color){
     const m=L.marker([x.lat,x.lng],{icon:pin(color)}).addTo(map);
-    m.bindPopup(`<b>${esc(x.n)}</b><br><span style="color:#556">${esc(x.dist||'')}</span><br><a href="${dir(x.lat,x.lng,x.pid)}" target="_blank" rel="noopener">🗺️ Itinéraire</a>`);
+    m.bindPopup(`<b>${esc(x.n)}</b><br><span style="color:#556">${esc(x.dist||'')}</span><br><a href="${dir(x.lat,x.lng,x.pid)}" target="_blank" rel="noopener">🗺️ Directions</a>`);
     pts.push([x.lat,x.lng]);
   }
   [...RESTOS_SONBOU,...RESTOS_ALAIOR,...RESTOS_LOIN].forEach(x=>add(x,'#d9552f'));
@@ -1023,7 +1022,7 @@ function initMap(){
   BEACHES.forEach(x=>add(x,'#2fb0a1'));
   SITES.forEach(x=>add(x,'#0d6068'));
   const vm=L.marker(villa,{icon:pin('#06343c',true),zIndexOffset:1000}).addTo(map);
-  vm.bindPopup('<b>🏡 Notre villa</b><br>Carrer del Pinar 32<br>San Jaime Mediterráneo');
+  vm.bindPopup('<b>🏡 Our villa</b><br>Carrer del Pinar 32<br>San Jaime Mediterráneo');
   pts.push(villa);
   try{map.fitBounds(pts,{padding:[45,45]});}catch(e){}
   map.on('click',()=>map.scrollWheelZoom.enable());
@@ -1042,9 +1041,9 @@ if('serviceWorker' in navigator && location.protocol==='https:'){
   const start=new Date(2026,6,25),end=new Date(2026,7,1);
   const today=new Date();today.setHours(0,0,0,0);
   const d=Math.round((start-today)/86400000);
-  if(d>0){N.textContent='J-'+d;T.textContent='avant le départ pour Minorque ✈️';}
-  else if(today<=end){N.textContent='🏝️';T.textContent='C’est maintenant — profitez bien tous les dix !';}
-  else{N.textContent='✦';T.textContent='Merci pour cette belle semaine à Minorque';}
+  if(d>0){N.textContent='J-'+d;T.textContent='until we leave for Menorca ✈️';}
+  else if(today<=end){N.textContent='🏝️';T.textContent='It’s happening — enjoy, all ten of you!';}
+  else{N.textContent='✦';T.textContent='Thank you for a beautiful week in Menorca';}
   el.hidden=false;
 })();
 
