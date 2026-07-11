@@ -74,7 +74,7 @@ img{max-width:100%}
 .leaflet-popup-content{font-family:'Figtree',sans-serif;font-size:.9rem;line-height:1.5}
 .leaflet-popup-content a{color:var(--sea);font-weight:700}
 .map-fallback{padding:40px 24px;text-align:center;color:var(--ink-soft);background:var(--sand);border-radius:20px;border:1px dashed var(--line);font-weight:500}
-.hero-inner{position:relative;z-index:3;max-width:1180px;margin:0 auto;width:100%;padding:0 22px 8vh}
+.hero-inner{position:relative;z-index:3;max-width:1180px;margin:0 auto;width:100%;padding:0 22px clamp(100px,12vh,150px)}
 .hero-chip{display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.14);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.25);padding:8px 15px;border-radius:100px;font-size:.8rem;font-weight:600;letter-spacing:.02em;margin-bottom:22px}
 .hero-chip .dot{width:8px;height:8px;border-radius:50%;background:var(--turq);box-shadow:0 0 0 4px rgba(56,181,166,.3)}
 .hero h1{font-size:clamp(3.2rem,11vw,7.4rem);text-shadow:0 4px 30px rgba(0,0,0,.28)}
@@ -261,7 +261,7 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
   .h-sec{font-size:1.95rem;line-height:1.08}
   .lead{font-size:1.02rem}
   .hero{min-height:88svh}
-  .hero-inner{padding:0 16px 8vh}
+  .hero-inner{padding:0 16px 112px}
   .hero h1{font-size:2.9rem}
   .hero-sub{font-size:1.02rem}
   .hero-chip{font-size:.74rem;padding:7px 12px}
@@ -470,11 +470,11 @@ footer .serif{font-size:2rem;color:#fff;display:block;margin-bottom:8px}
     <div class="card">
       <span class="tag t-info">✈️ Both ends</span>
       <div class="slot" style="border-color:var(--line)">
-        <div class="when">Arrival<small>Fri 25/07</small></div>
+        <div class="when">Arrival<small>Sat 25/07</small></div>
         <div class="what"><strong>Landing 12:55</strong><p>Pick up the 3 cars, ~25 min drive to the villa, settle in, first swim.</p></div>
       </div>
       <div class="slot">
-        <div class="when">Departure<small>Fri 01/08</small></div>
+        <div class="when">Departure<small>Sat 01/08</small></div>
         <div class="what"><strong>Take-off 14:40</strong><p>Aim for the airport around 12:40. Easy morning: last swim, brunch, tidy-up and hand-over.</p></div>
       </div>
     </div>
@@ -752,46 +752,46 @@ const SITES=[
 
 /* ---- PROGRAMME ---- */
 const DAYS=[
- {id:"j1",date:"Friday, July 25",title:"Arrival & first swim",badges:["🛬 Arrival day","🔥 Villa BBQ"],slots:[
+ {id:"j1",date:"Saturday, July 25",title:"Arrival & first swim",badges:["🛬 Arrival day","🔥 Villa BBQ"],slots:[
    {w:"1–3pm",s:"Drive & settle in",t:"Arrival",p:"Landing 12:55, pick up the 3 cars, ~25 min to the villa. Drop the bags, breathe.",links:[["Airport → villa directions","https://www.google.com/maps/dir/?api=1&origin=Aeroport%20de%20Menorca%20MAH&destination="+ORIGIN+"&travelmode=driving"]]},
    {w:"4pm",s:"Quick shop",t:"Sant Jaume",p:"Bread, water, aperitivo and tomorrow’s breakfast at the corner shop, 4 min on foot.",links:[["Directions",dir(39.9030,4.0733,"ChIJ-4GIR6yKlRIRpB9eQiWWEr4")]]},
    {w:"6pm",s:"First swim",t:"Son Bou beach",p:"Down to the beach once it cools off, 5 min on foot. The kids stretch their legs.",links:[["See the beach",place(39.9017,4.0717,"ChIJxz-QBa2KlRIR7oFRTZZp_Ak")]]},
    {w:"8pm",s:"Opening BBQ",t:"🍗 Chicken at the villa",p:"Simple barbecue: lemon-herb chicken and vegetable skewers. Early night.",links:[]}
  ]},
- {id:"j2",date:"Saturday, July 26",title:"Son Bou, the beach down the road",badges:["🚼 Stroller OK","🐟 Fish dinner"],slots:[
+ {id:"j2",date:"Sunday, July 26",title:"Son Bou, the beach down the road",badges:["🚼 Stroller OK","🐟 Fish dinner"],slots:[
    {w:"9am–1pm",s:"Family beach time",t:"Platja de Son Bou",p:"Beach morning before the big heat: shallow water perfect for Apolline and the boys. Parasol essential.",links:[["See the beach",place(39.9017,4.0717,"ChIJxz-QBa2KlRIR7oFRTZZp_Ak")]]},
    {w:"1–5pm",s:"Quiet time",t:"🏊 Villa pool",p:"Lunch at the villa, Apolline’s nap, then the private pool for the boys while parents take turns in the shade.",links:[]},
    {w:"8pm",s:"Dinner",t:"🐟 Casa Andrés",p:"Son Bou’s reliable favourite, on foot. Catch of the day and local rabbit. Book ahead.",links:[["Learn more",place(39.8992,4.0778,"ChIJ3afIKLCKlRIR9atQYmpzIW4")],["Directions",dir(39.8992,4.0778,"ChIJ3afIKLCKlRIR9atQYmpzIW4")]]}
  ]},
- {id:"j3",date:"Sunday, July 27",title:"The postcard calas",badges:["🎒 Baby carrier","🔥 Fish BBQ"],slots:[
+ {id:"j4",date:"Monday, July 27",title:"Prehistory while it’s cool & downtime",badges:["🆓 Free today","🐟 Fish dinner"],slots:[
+   {w:"9am",s:"Morning culture",t:"Torre d’en Galmés",p:"The great Talayotic site ~8 min away, free on Mondays. A 1-hour visit, best done early (little shade). Baby carrier advised.",links:[["Learn more",place(39.9025,4.1142,"ChIJLbOW_nuKlRIRpEbctz6mZOE")],["Directions",dir(39.9025,4.1142,"ChIJLbOW_nuKlRIRpEbctz6mZOE")]]},
+   {w:"1–5pm",s:"Quiet time",t:"🏊 Pool & nap",p:"Peak heat: we settle by the villa pool. Late-afternoon dip at Son Bou if the mood strikes.",links:[]},
+   {w:"8pm",s:"Dinner",t:"🐟 Alessandro’s",p:"Family-friendly Italian on foot (Casa Andrés is closed on Mondays). Homemade pasta, fish, pizzas — quick and easy with kids.",links:[["Learn more",place(39.8999,4.0768,"ChIJqfn1OrCKlRIRFJSZvJBBVxA")],["Directions",dir(39.8999,4.0768,"ChIJqfn1OrCKlRIRFJSZvJBBVxA")]]}
+ ]},
+ {id:"j3",date:"Tuesday, July 28",title:"The postcard calas",badges:["🎒 Baby carrier","🔥 Fish BBQ"],slots:[
    {w:"8:30am",s:"Early start",t:"Cala Galdana",p:"Leave before the heat and the full car parks (~25 min). Sheltered cove, services, pedalos — stroller OK on the front.",links:[["Directions",dir(39.9389,3.9640,"ChIJtySQnL4dvhIRQJ5Xf3GvAgo")]]},
    {w:"10:30am",s:"Walk (optional)",t:"Cala Macarella",p:"For the keen: a 35-min shaded trail from Galdana to the most beautiful cove. Baby carrier for Apolline.",links:[["See Macarella",place(39.9386,3.9372,"ChIJLYyNfBIdvhIRMw36JZo-vBE")]]},
    {w:"1–5pm",s:"Quiet time",t:"Back & nap",p:"Lunch, nap and rest at the villa through the hot hours.",links:[]},
    {w:"8pm",s:"Dinner",t:"🔥 Fish BBQ",p:"Easy night at home: whole sea bream or bass in rock salt and fennel, grilled vegetables.",links:[]}
  ]},
- {id:"j4",date:"Monday, July 28",title:"Prehistory while it’s cool & downtime",badges:["🆓 Free today","🐟 Fish dinner"],slots:[
-   {w:"9am",s:"Morning culture",t:"Torre d’en Galmés",p:"The great Talayotic site ~8 min away, free on Mondays. A 1-hour visit, best done early (little shade). Baby carrier advised.",links:[["Learn more",place(39.9025,4.1142,"ChIJLbOW_nuKlRIRpEbctz6mZOE")],["Directions",dir(39.9025,4.1142,"ChIJLbOW_nuKlRIRpEbctz6mZOE")]]},
-   {w:"1–5pm",s:"Quiet time",t:"🏊 Pool & nap",p:"Peak heat: we settle by the villa pool. Late-afternoon dip at Son Bou if the mood strikes.",links:[]},
-   {w:"8pm",s:"Dinner",t:"🐟 Alessandro’s",p:"Family-friendly Italian on foot (Casa Andrés is closed on Mondays). Homemade pasta, fish, pizzas — quick and easy with kids.",links:[["Learn more",place(39.8999,4.0768,"ChIJqfn1OrCKlRIRFJSZvJBBVxA")],["Directions",dir(39.8999,4.0768,"ChIJqfn1OrCKlRIRFJSZvJBBVxA")]]}
- ]},
- {id:"j5",date:"Tuesday, July 29",title:"Ciutadella, the old town",badges:["🚼 Stroller OK","🍦 Cult ice cream"],slots:[
+ {id:"j5",date:"Wednesday, July 29",title:"Ciutadella, the old town",badges:["🚼 Stroller OK","🍦 Cult ice cream"],slots:[
    {w:"9am",s:"Departure",t:"Heading west",p:"~45 min drive to the island’s most beautiful town. Shaded white lanes, the harbour, cathedral, market.",links:[["Directions",dir(40.0016,3.8398,"ChIJQQ8i3hEFvhIRSHFBysxv_So")]]},
    {w:"1pm",s:"Lunch",t:"🍗 Molí des Comte",p:"Generous grills and paella in a gorgeous setting, family-friendly. Booking advised.",links:[["Learn more",place(40.0028,3.8412,"ChIJHxTtywsEvhIRuRMetTHu-IA")]]},
    {w:"3pm",s:"A treat",t:"Gelateria Deliri",p:"The island’s best ice cream (4.9★) before heading back. The kids love it.",links:[["See",place(40.0016,3.8398,"ChIJQQ8i3hEFvhIRSHFBysxv_So")]]},
    {w:"8pm",s:"Dinner",t:"🔥 Chicken BBQ",p:"Easy drive home, light evening at the villa after the road.",links:[]}
  ]},
- {id:"j6",date:"Wednesday, July 30",title:"Maó, white village & big shop",badges:["🛒 Big shop","🍗 Chicken dinner"],slots:[
+ {id:"j6",date:"Thursday, July 30",title:"Maó, white village & big shop",badges:["🛒 Big shop","🍗 Chicken dinner"],slots:[
    {w:"9:30am",s:"Heading east",t:"Maó (Mahón)",p:"~25 min: the harbour, cheese shops, the local gin. A gentle morning stroll.",links:[["Maó directions",dir(39.8880,4.2600)]]},
    {w:"12pm",s:"Supplies",t:"🛒 Mercadona / Lidl",p:"The big weekly shop, far cheaper, before heading back. Load up the boots.",links:[["Mercadona",dir(39.8845,4.2366,"ChIJp8mO6-CHlRIRjAshpodtwWs")],["Lidl",dir(39.8862,4.2496,"ChIJzU-ePeiHlRIRox5P9CgvwI0")]]},
    {w:"5:30pm",s:"Postcard",t:"Binibeca Vell",p:"The immaculate white village in the late afternoon. Narrow lanes: baby carrier works better.",links:[["See Binibeca",place(39.8203,4.2449,"ChIJ53olTf6FlRIRuV1xo_WeS9o")]]},
    {w:"8:30pm",s:"Dinner",t:"🍗 The Cardamom",p:"Back in Son Bou (on foot): the best-rated place around, fragrant chicken and lamb.",links:[["Learn more",place(39.8996,4.0778,"ChIJY7wZHACLlRIRQOUV9TkgTDI")],["Directions",dir(39.8996,4.0778,"ChIJY7wZHACLlRIRQOUV9TkgTDI")]]}
  ]},
- {id:"j7",date:"Thursday, July 31",title:"Turquoise & farewell dinner",badges:["🎒 Baby carrier","✨ Favourite"],slots:[
+ {id:"j7",date:"Friday, July 31",title:"Turquoise & farewell dinner",badges:["🎒 Baby carrier","✨ Favourite"],slots:[
    {w:"8am",s:"Your pick — the action",t:"Cala en Turqueta",p:"For the early birds: the legendary turquoise water (~40 min, car park before 9:30). Baby carrier for the little one.",links:[["Directions",dir(39.9324,3.9148,"ChIJ2Ry07kgdvhIR1A9CU5yhBZY")]],opt:"Chill option: a relaxed villa day (pool) + Son Bou beach, no driving."},
    {w:"1–5pm",s:"Quiet time",t:"🏊 Rest",p:"One last quiet afternoon: nap, villa pool, and pack the bags with a light heart.",links:[]},
    {w:"8pm",s:"Farewell dinner",t:"✨ Es Festuc · Alaior",p:"A treat for the last night: creative tapas, lovely wine list (~15 min). Book ahead.",links:[["Learn more",place(39.9342,4.1388,"ChIJVReIy8UgvhIRVbLXmtZPSbs")],["Directions",dir(39.9342,4.1388,"ChIJVReIy8UgvhIRVbLXmtZPSbs")]],opt:"Fish alternative: Sa Taula in Fornells, rooftop terrace."}
  ]},
- {id:"j8",date:"Friday, August 1",title:"Last swim & departure",badges:["🛫 Departure day","🚼 Stroller OK"],slots:[
+ {id:"j8",date:"Saturday, August 1",title:"Last swim & departure",badges:["🛫 Departure day","🚼 Stroller OK"],slots:[
    {w:"8:30am",s:"One last dip",t:"Son Bou",p:"Morning swim 5 min away while the coffee brews.",links:[["See the beach",place(39.9017,4.0717,"ChIJxz-QBa2KlRIR7oFRTZZp_Ak")]]},
    {w:"10:30am",s:"Wrap up",t:"Brunch & tidy-up",p:"Brunch with the barbecue leftovers, bags, tidy-up, villa hand-over.",links:[]},
    {w:"12:40pm",s:"Airport run",t:"Take-off 14:40",p:"~25 min to Maó to reach the airport ~2 h ahead. Fes-ho bé!",links:[["Villa → airport directions","https://www.google.com/maps/dir/?api=1&origin="+ORIGIN+"&destination=Aeroport%20de%20Menorca%20MAH&travelmode=driving"]]}
